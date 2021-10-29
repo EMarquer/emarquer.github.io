@@ -8,13 +8,13 @@ navlabel: bib
 <!-- Voir pour faire plus petit -->
 
 ## Analogical proportions on embedding spaces
-1. S. Alsaidi, A. Decker, P. Lay, **E. Marquer**, P.-A. Murena, M. Couceiro. \
-    On the Transferability of Neural Models of Morphological Analogies. \
+1. **On the Transferability of Neural Models of Morphological Analogies.** \
+    S. Alsaidi, A. Decker, P. Lay, <ins>E. Marquer</ins>, P.-A. Murena, M. Couceiro. \
     *AIMLAI, ECML PKDD 2021: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases*, Sep 2021, Bilbao/Online, Spain. \
     [Paper (on HAL)](https://project.inria.fr/aimlai/files/2021/09/AIMLAI_Talk_Transfering_Morphological_Analogies.pdf);
     [Slides](https://project.inria.fr/aimlai/files/2021/09/AIMLAI_Talk_Transfering_Morphological_Analogies.pdf).
-2. S. Alsaidi, A. Decker, P. Lay, **E. Marquer**, P.-A. Murena, M. Couceiro. \
-    A Neural Approach for Detecting Morphological Analogies. \
+2. **A Neural Approach for Detecting Morphological Analogies.** \
+    S. Alsaidi, A. Decker, P. Lay, <ins>E. Marquer</ins>, P.-A. Murena, M. Couceiro. \
     *The 8th IEEE International Conference on Data Science and Advanced Analytics (DSAA)*, Oct 2021, Porto/Online, Portugal. \
     [Paper (on HAL)](https://hal.archives-ouvertes.fr/hal-03313556);
     [Poster (on HAL)](https://hal.archives-ouvertes.fr/hal-03328841).
@@ -52,13 +52,13 @@ navlabel: bib
 {% include collapsible_bib.html  %}
 
 ## Embedding spaces for Formal Concept Analysis
-1. **E. Marquer**, A. Kulkarni, M. Couceiro. \
-    Embedding Formal Contexts Using Unordered Composition. \
+1. **Embedding Formal Contexts Using Unordered Composition.** \
+    <ins>E. Marquer</ins>, A. Kulkarni, M. Couceiro. \
     *FCA4AI - 8th International Workshop "What can FCA do for Artificial Intelligence?" (colocated wit ECAI2020)*,
     Aug 2020, Santiago de Compostela, Spain. \
     [Paper](https://arxiv.org/abs/2004.08371).
-2. **E. Marquer**. \
-    LatticeNN - Deep Learning and Formal Concept Analysis.
+2. **LatticeNN - Deep Learning and Formal Concept Analysis.** \
+    <ins>E. Marquer</ins>. \
     2020\. *Note: master's thesis.* \
     [Thesis](https://hal.inria.fr/hal-02954843).
 
@@ -94,7 +94,7 @@ navlabel: bib
 {% include collapsible_bib.html  %}
 
 ## Other works
-1. L. Dieudonat, K. Han, P. Leavitt, **E. Marquer**. \
-    Exploring the Combination of Contextual Word Embeddings and Knowledge Graph Embeddings. \
+1. **Exploring the Combination of Contextual Word Embeddings and Knowledge Graph Embeddings.** \
+    L. Dieudonat, K. Han, P. Leavitt, <ins>E. Marquer</ins>. \
     2020\. *Note: student project report.* \
     [Report (on arXiv)](https://arxiv.org/abs/2004.08371)
