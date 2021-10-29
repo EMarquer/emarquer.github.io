@@ -26,9 +26,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 domain: emarquer.github.io
 url: https://emarquer.github.io # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  EMarquer
+gitlab_username:  EMarquer
 
 # Build settings
 theme: jekyll-theme-leap-day
+#theme: jekyll-theme-dinky
 plugins:
   - jekyll-feed
 

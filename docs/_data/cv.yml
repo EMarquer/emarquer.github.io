@@ -1,0 +1,224 @@
+training:
+  - title: Ph.D
+    date:
+      start: Oct. 2020
+    place:
+      institute: LORIA, Orpailleur team
+      university: Université de Lorraine
+      city: Nancy
+      country: France
+    description: study of proportional analogy and its applications in machine learning and in particular deep learning
+  - title: Master in Natural Language Processing (NLP)
+    date:
+      start: sep. 2018
+      end: jul. 2020
+    place:
+      institute: Institut des sciences du Digital, Management et Cognition (IDMC)
+      university: Université de Lorraine
+      city: Nancy
+      country: France
+  - title: Baschelor in Mathematics and Computer Science applied to Humanities (MIASHS)
+    date:
+      start: sep. 2015
+      end: jul. 2018
+    place:
+      institute: UFR Mathématiques et Informatique
+      university: Université de Lorraine
+      city: Nancy
+      country: France
+  - title: Baccalauréat Général et Technologique
+    date: 2015
+    place:
+      institute: Lycée Louis-Vincent
+      city: Metz
+      country: France
+    description: Scientific Baccalauréat
+    note: with honors
+
+teaching:
+  - position: Teaching assistant
+    place:
+      institute: Ecole des Mines
+      university: Université de Lorraine
+      city: Nancy
+      country: France
+    topic: Global Optimisation
+    public: 2nd or 3rd year
+    date:
+      start: 2021
+      end: 2022
+    duration: 4 x 2h
+    kind: practicals
+    description: TBD
+    missions: TBD
+  - position: Teaching assistant
+    place:
+      institute: IDMC, NLP Master
+      university: Université de Lorraine
+      city: Nancy
+      country: France
+    topic: Data Mining
+    public: \? year
+    date:
+      start: 2021
+      end: 2022
+    duration: ...h
+    kind: practicals
+    description: TBD
+    missions: 
+      - TBD
+  - position: Teaching assistant
+    place:
+      institute: IDMC, NLP Master
+      university: Université de Lorraine
+      city: Nancy
+      country: France
+    topic: Software Project
+    public: 2nd year
+    date:
+      start: 2021
+      end: 2022
+    duration: ...h
+    kind: practicals
+    description: Project driven class, the student have to devlop an innovative tool  
+    missions:
+      - supervision of up to 4 groups
+      - writing project topics
+      - evaluation (group presentation along the project, code production, end product, project defense)
+  - position: Teaching assistant
+    place:
+      institute: IDMC, NLP Master
+      university: Université de Lorraine
+      city: Nancy
+      country: France
+    topic: Semantic Web
+    public: 1st year
+    date:
+      start: 2020
+      end: 2021
+    duration: ...h
+    kind: practicals
+    description: Formal Concept Analysis (FCA), Description Logics, RDF 
+    missions:
+      - exam preparation and oversee
+      - giving practical sessions
+  - position: Teaching assistant
+    place:
+      institute: IDMC, NLP Master
+      university: Université de Lorraine
+      city: Nancy
+      country: France
+    topic: Ontologies
+    public: 2nd year
+    date:
+      start: 2020
+      end: 2021
+    duration: ...h
+    kind: practicals
+    description: RDF, RDFS, OWL, manipulation of ontologies with SPARQL and Protégé
+    missions:
+      - exam preparation and oversee
+      - end-of-session preparation and oversee
+      - writing and giving of practical sessions
+  - position: Tutor
+    date:
+      start: Aug. 2019
+    duration: 1 week
+    place:
+      institute: LORIA, Synalp team
+      university: Université de Lorraine
+      city: Nancy
+      country: France
+    topic: <i>Python4NLP</i> summer school
+    description: tutoring during the practicals of the <i>Python4NLP</i> summer school
+    missions: teaching the bases of Python programming for the preprocessing and analysis of text data and the application of standard NLP tools, machine learning and deep learning; certificate available
+
+academia:
+  - position: Ph.D
+    date:
+      start: Oct. 2020
+    place:
+      institute: LORIA, Orpailleur team
+      university: Université de Lorraine
+      city: Nancy
+      country: France
+    description:
+      objective: study of proportional analogy and its applications in machine learning and in particular deep learning.
+  - position: End of master research internship
+    date:
+      start: Feb. 2020
+      end: Jul. 2020
+    place:
+      institute: LORIA, Orpailleur team
+      university: Université de Lorraine
+      city: Nancy
+      country: France
+    description:
+      objective: concept lattice generation from formal context using deep learning.
+      missions:
+        - design an autoencoder architecture for concept lattices
+        - extend the architecture to take into account the formal context
+  - position: Master 1 optional research internship
+    date:
+      start: June 2019
+      end: Aug. 2019
+    place:
+      institute: LORIA, Semagramme team
+      university: Université de Lorraine
+      city: Nancy
+      country: France
+    description:
+      objective: preliminary work for the transcription of the DinG (<i>Dialogues in Games</i>) corpus.
+      missions:
+        - design and application of an evaluation process for transcription tools
+        - design of a transcription guide
+        - recording of audio data
+        - initiation to Formal Semantics
+  - position: End of baschelor research internship
+    date:
+      start: Apr. 2018
+      end: Jul. 2018
+    place:
+      institute: LORIA, Synalp team
+      university: Université de Lorraine
+      city: Nancy
+      country: France
+    description:
+      objective: development of a deep neural network architecture to model language.
+      missions:
+        - discovery of deep learning of PyTorch
+        - design of an innovating architecture based on the Long-Short Term Memory network (LSTM) then the Deep Averaging Network (DAN) architectures
+        - management of large amounts of data; optimization of deep learning architectures
+        - participation in the ITEA3-PAPUD European project
+  
+other:
+  - position: Transcriber
+    date:
+      start: Oct. 2020
+      end: Feb. 2020
+    place:
+      institute: LORIA, Semagramme team
+      university: Université de Lorraine
+      city: Nancy
+      country: France
+    description:
+      objective: transcription of multiple hours of audio recordings with up to 4 overlaping speakers.
+      missions: orthographic transcription using the ELAN tool following the transcription guide designed during the preceding internship (June - Aug. 2019).
+  - position: Supervised MSc1 project
+    date:
+      start: Oct. 2018
+      end: May. 2018
+    place:
+      institute: LORIA, Synalp team
+      university: Université de Lorraine
+      city: Nancy
+      country: France
+    description:
+      objective: anomaly detection in system logs using deep learning.
+      missions:
+        - project in pair
+        - design and application of a deep learning architecture (Deep Averaging Natwork, DAN)
+        - anomaly detection by comparison of the predicted evolution with the observed evolution of the logs
+        - management and analysis of large amounts of data
+        - use of PyTorch
+    

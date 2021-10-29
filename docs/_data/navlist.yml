@@ -1,0 +1,14 @@
+title: ACME Documentation
+docs:
+
+- title: Home
+  url: "/"
+  label: index
+
+- title: <i>Curiculum Vitae</i>
+  url: cv
+  label: cv
+
+- title: Publications
+  url: bib
+  label: bib

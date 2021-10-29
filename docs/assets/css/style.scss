@@ -1,0 +1,108 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+
+.cv-training,.cv-teaching,.cv-academia,.cv-other {
+    .cv-place {
+        display: inline;
+    }
+    .cv-date {
+        display: inline;
+        font-weight: bold;
+        color: #4276b6;
+        &::after{
+            content: ":";
+        }
+    }
+    .cv-title {
+        display: inline;
+        font-weight: bold;
+    }
+    details {
+        font-size: smaller;
+    }
+    ul li:not(:last-child)::after {content: ";";}
+    ul li:last-child::after {content: ".";}
+}
+.cv-teaching .mission {
+    font-weight: bold;
+    display: inline;
+}
+details.cv{
+    &:not([open]){display: inline;}
+    &> summary:first-of-type {
+        font-weight: bold;
+        display: inline;
+        cursor: pointer;
+    }
+    &[open] > summary:first-of-type::after {content: ":";}
+    &:not([open]) > summary:first-of-type::after {content: "...";}
+}
+details.bib{
+    font-size: smaller;
+    code {font-size: smaller;}
+    &> summary:first-of-type {
+        font-weight: bold;
+        display: inline;
+        cursor: pointer;
+    }
+    &[open] > summary:first-of-type::after {content: "(click to collapse)";}
+    &:not([open]) > summary:first-of-type::after {content: "(click to extend)";}
+}
+
+nav {
+    .active {
+        border-right:solid 3px #39C;
+        padding-right:13px;
+        
+        >a {
+            color: #4276b6;
+            cursor: default;
+            font-weight: bold;
+        }
+    }
+
+    .tag-h0 {
+        font-size: 1.5em;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+        >a {
+          font-weight: bold;
+          color: #333;
+        }
+
+        &.active {
+            border-right:solid 5px #39C;
+            padding-right:13px;
+            
+            >a {
+                cursor: default;
+                font-weight: bold;
+            }
+        }
+        >ul {
+            margin-top: 5px;
+            margin-bottom: 0em;
+        }
+    }
+    .active >a:hover { color: #999; }
+    :not(.active) {
+        >a:hover { color: #999; }
+    }
+    
+}
+  
+@media print, screen and (max-width: 1060px) {
+    nav{
+        display: none;
+    }
+}
+
+@media print, screen and (max-height: 480px) {
+    nav {
+        display: none;
+    }
+}

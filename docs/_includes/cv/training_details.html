@@ -1,0 +1,16 @@
+{% if include.description or include.note %}
+<details class="cv">
+    <summary>Details</summary>
+    {% if include.description.first %}{% if include.note %}{{ include.note }}{% endif %}
+    <ul>
+        {% for item in include.description %}
+        <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    {% elsif include.note_first %}
+    {% if include.note %}{{ include.note }}{% if include.description %}, {% endif %}{% endif %}{{ include.description }}
+    {% else %}
+    {{ include.description }}{% if include.note %}{% if include.description %}, {% endif %}{{ include.note }}{% endif %}
+    {% endif %}
+</details>
+{% endif %}
