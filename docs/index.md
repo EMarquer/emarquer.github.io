@@ -6,13 +6,14 @@ layout: default
 navlabel: index
 ---
 
-# Esteban Marquer
 See my [CV](cv) for further detail on my learning and professional experience.
 
 ## Research interests
-My current research interests are centered on analogy and the chalenges of representation learning.
+My current research interests are centered on analogy and the challenges of representation learning.
 
-Indeed, analogical reasoning has been the topic of many
+Analogical reasoning and analogical proportions, which are the topic of my Ph.D., are full of potential to capture a key mecanism of human reasoning capability [[1]](some bib reference here).
+Analogical reasoning allows to reason and transfer 
+
 
 ## Contact & social
 You can contact me by mail at [{{ site.email }}](mailto:{{ site.email }}).

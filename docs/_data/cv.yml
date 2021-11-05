@@ -1,5 +1,7 @@
+current_position: Ph.D. Student
+
 training:
-  - title: Ph.D
+  - title: Ph.D.
     date:
       start: Oct. 2020
     place:
@@ -58,7 +60,7 @@ teaching:
       city: Nancy
       country: France
     topic: Data Mining
-    public: \? year
+    public: 2nd year
     date:
       start: 2021
       end: 2022
@@ -100,8 +102,8 @@ teaching:
     kind: practicals
     description: Formal Concept Analysis (FCA), Description Logics, RDF 
     missions:
-      - exam preparation and oversee
-      - giving practical sessions
+      - writing and overseeing of the final exam
+      - giving practical sessions (alone)
   - position: Teaching assistant
     place:
       institute: IDMC, NLP Master
@@ -117,9 +119,9 @@ teaching:
     kind: practicals
     description: RDF, RDFS, OWL, manipulation of ontologies with SPARQL and Protégé
     missions:
-      - exam preparation and oversee
-      - end-of-session preparation and oversee
-      - writing and giving of practical sessions
+      - writing giving practical sessions (alone)
+      - writing and overseeing of the final exam
+      - writing and overseeing end-of-session tests
   - position: Tutor
     date:
       start: Aug. 2019
@@ -134,7 +136,7 @@ teaching:
     missions: teaching the bases of Python programming for the preprocessing and analysis of text data and the application of standard NLP tools, machine learning and deep learning; certificate available
 
 academia:
-  - position: Ph.D
+  - position: Ph.D.
     date:
       start: Oct. 2020
     place:
@@ -143,7 +145,7 @@ academia:
       city: Nancy
       country: France
     description:
-      objective: study of proportional analogy and its applications in machine learning and in particular deep learning.
+      objective: study of proportional analogy and its applications in machine learning and in particular deep learning
   - position: End of master research internship
     date:
       start: Feb. 2020
@@ -154,7 +156,7 @@ academia:
       city: Nancy
       country: France
     description:
-      objective: concept lattice generation from formal context using deep learning.
+      objective: concept lattice generation from formal context using deep learning
       missions:
         - design an autoencoder architecture for concept lattices
         - extend the architecture to take into account the formal context
@@ -168,7 +170,7 @@ academia:
       city: Nancy
       country: France
     description:
-      objective: preliminary work for the transcription of the DinG (<i>Dialogues in Games</i>) corpus.
+      objective: preliminary work for the transcription of the DinG (<i>Dialogues in Games</i>) corpus
       missions:
         - design and application of an evaluation process for transcription tools
         - design of a transcription guide
@@ -184,11 +186,12 @@ academia:
       city: Nancy
       country: France
     description:
-      objective: development of a deep neural network architecture to model language.
+      objective: development of a deep neural network architecture to model language
       missions:
         - discovery of deep learning of PyTorch
         - design of an innovating architecture based on the Long-Short Term Memory network (LSTM) then the Deep Averaging Network (DAN) architectures
-        - management of large amounts of data; optimization of deep learning architectures
+        - management of large amounts of data
+        - optimization of deep learning architectures
         - participation in the ITEA3-PAPUD European project
   
 other:
@@ -202,8 +205,8 @@ other:
       city: Nancy
       country: France
     description:
-      objective: transcription of multiple hours of audio recordings with up to 4 overlaping speakers.
-      missions: orthographic transcription using the ELAN tool following the transcription guide designed during the preceding internship (June - Aug. 2019).
+      objective: transcription of multiple hours of audio recordings with up to 4 overlaping speakers
+      missions: orthographic transcription using the ELAN tool following the transcription guide designed during the preceding internship (June - Aug. 2019)
   - position: Supervised MSc1 project
     date:
       start: Oct. 2018
@@ -214,7 +217,7 @@ other:
       city: Nancy
       country: France
     description:
-      objective: anomaly detection in system logs using deep learning.
+      objective: anomaly detection in system logs using deep learning
       missions:
         - project in pair
         - design and application of a deep learning architecture (Deep Averaging Natwork, DAN)

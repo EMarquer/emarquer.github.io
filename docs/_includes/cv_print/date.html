@@ -1,0 +1,12 @@
+{% if include.date.start %}<!--
+--><div class="cv-date"><!--
+    -->{% if include.date.end %}<!--
+        -->{{ include.date.start }} - {{ include.date.end }}<!--
+    -->{% elsif include.date.duration %}<!--
+        -->{{ include.date.start }} ({{ include.date.duration }})<!--
+    -->{% else %}<!--
+        -->{{ include.date.start }} - Now<!--
+    -->{% endif %}</div><!--
+-->{% elsif include.date %}<!--
+    --><div class="cv-date">{{ include.date }}</div><!--
+-->{% endif %}

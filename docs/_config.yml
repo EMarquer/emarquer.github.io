@@ -29,6 +29,7 @@ github_username:  EMarquer
 gitlab_username:  EMarquer
 
 # Build settings
+fontawsome_url: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
 theme: jekyll-theme-leap-day
 #theme: jekyll-theme-dinky
 plugins:

@@ -1,0 +1,12 @@
+<div class="smallnav">
+<nav class="smallnav">
+    <!--i class="fas fa-bars"></i-->
+    <ul>
+       {% for item in site.data.navlist.docs %}
+          <li class="{% if item.label == page.navlabel %}active{% endif %} tag-h0"><a href="{{ item.url }}">{% if item.label == page.navlabel %}<i class="fas fa-caret-right"></i>{% endif %} {{ item.title }}</a>
+            {% if item.label == page.navlabel %}<ul class="pagenav"></ul>{% endif %}
+          </li>
+       {% endfor %}
+    </ul>
+</nav>
+</div>

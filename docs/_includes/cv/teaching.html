@@ -7,7 +7,7 @@
     <br/>
     {% if include.teaching.missions.first %}
     <div class=mission>Missions:</div><ul>
-        {% for item in include.missions %}
+        {% for item in include.teaching.missions %}
         <li>{{ item }}</li>
         {% endfor %}
     </ul>

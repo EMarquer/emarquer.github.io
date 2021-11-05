@@ -52,7 +52,7 @@ details.bib{
     &:not([open]) > summary:first-of-type::after {content: "(click to extend)";}
 }
 
-nav {
+nav:not(.smallnav) {
     .active {
         border-right:solid 3px #39C;
         padding-right:13px;
@@ -95,14 +95,127 @@ nav {
     
 }
   
-@media print, screen and (max-width: 1060px) {
-    nav{
-        display: none;
+div.smallnav{
+    position: relative;
+    display: none;
+    height: auto;
+}
+
+nav.smallnav{
+    display: block;
+    position: initial;
+    top: initial;
+    left: initial;
+    margin-left: initial;
+    text-align: left;
+    padding: 0;//10px;
+    margin: 0;
+    width: 100%;
+    //height: fit-content;
+    height: auto;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        align-content: space-around; 
+        flex-direction: row;
+        align-items: flex-start;
+        height: fit-content;
+        gap: 10px;
+
+        list-style: none;
+        list-style-image:none;
+        font-size: 14px;
+        margin: 1px;
+        padding: 0;
+        //line-height: 24px;
+
+        a {
+            color: #393939;
+            //border: 1px solid #268 ;
+            //border-radius: 2px;
+            //background-color: rgb(110, 185, 212);
+            padding: 5px;
+            height: 1.5em;
+
+            &:hover { color: #999; }
+
+            //box-shadow: 1px 0px 2px 0px rgba(0, 0, 0, 0.75);
+            &>.fas {
+                color: #39C;
+            }
+        }
+        li {
+            display: inline-block;
+            &.active a {font-weight: bold;}
+        }
+        ul {display: none;}
     }
 }
 
-@media print, screen and (max-height: 480px) {
-    nav {
+@media print, screen and (max-width: 1060px), screen and (max-height: 480px){
+    nav:not(.smallnav){
         display: none;
+    }
+    div.smallnav{
+        display: block;
+        margin-top: 170px;
+    }
+    section {
+        margin: 0px auto 20px;
+    }
+    
+}
+
+
+@media print, screen and (max-width: 1060px) {
+    section {
+        padding:20px 20px;
+        //margin: 190px+50px auto 20px;
+        //margin: 20px auto 20px;
+        margin: 0px auto 20px;
+        max-width: 600px;
+    }
+
+    div.smallnav{
+        padding-top: 5px;
+        margin-top: 165px;
+    }
+}
+  
+@media print, screen and (max-width: 720px) {
+    body {
+        word-wrap: break-word;
+    }
+  
+    section {
+        //margin-top: 130px+50px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: auto;
+    }
+    div.smallnav{
+        margin-top: 130px;
+    }
+}
+  
+@media print, screen and (max-width: 480px) {
+  
+    section {
+      //margin-top: 5px+50px;
+        margin-top: 5px;
+    }
+
+    div.smallnav{
+        margin-top: 0px;
+    }
+}
+  
+@media print {
+    body {
+      padding:0.4in;
+      font-size:12pt;
+      color:#444;
     }
 }

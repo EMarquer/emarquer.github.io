@@ -1,0 +1,26 @@
+{% if include.print=='compact' %}
+{% include cv_print/date.html date=include.teaching.date %} ({{ include.teaching.duration }}{% if include.teaching.kind %} of
+{{ include.teaching.kind }}{% endif %})
+<div class="cv-title">{{ include.teaching.topic }}</div> for {{ include.teaching.public }} at {% include cv/place.html
+place=include.teaching.place %} ({{ include.teaching.position }})
+{% else %}
+{% include cv_print/date.html date=include.teaching.date %}
+({{ include.teaching.duration }}{% if include.teaching.kind %} of {{ include.teaching.kind }}{% endif %})
+<div class="cv-title">{{ include.teaching.topic }}</div> for {{ include.teaching.public }} at {% include cv/place.html
+place=include.teaching.place %} ({{ include.teaching.position }})
+<br />
+<div class=details>
+    {% if include.teaching.description %}{{ include.teaching.description }}{% endif %}
+    <br />
+    {% if include.teaching.missions.first %}
+    <div class=mission>Missions:</div>
+    <ul>
+        {% for item in include.teaching.missions %}
+        <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <div class=mission>Mission:</div> {{ include.teaching.missions }}
+    {% endif %}
+</div>
+{% endif %}

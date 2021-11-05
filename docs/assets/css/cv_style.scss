@@ -1,0 +1,109 @@
+---
+---
+
+ins {text-decoration-thickness: 5%;}
+.cv-training,.cv-teaching,.cv-academia,.cv-other {
+    .cv-place {
+        display: inline;
+    }
+    .cv-date {
+        display: inline;
+        font-weight: bold;
+        &::after{
+            content: ":";
+        }
+    }
+    .cv-title {
+        display: inline;
+        font-weight: bold;
+    }
+    .details {
+        font-size: smaller;
+    }
+    ul li:not(:last-child)::after {content: ";";}
+    ul li:last-child::after {content: ".";}
+}
+.cv-teaching .mission {
+    font-weight: bold;
+    display: inline;
+}
+.cv-bib {
+    .authors {display: inline;}
+    .author {display: inline;}
+    .author:not(:last-child)::after {content: ",";}
+    .author:last-child::after {content: ".";}
+    .author.me {text-decoration: underline;}
+    .booktitle,.date,.place {display: inline;}
+    .booktitle {font-style: italic;}
+}
+.page{
+    padding: 0;
+    &>* {
+        margin: 20px;
+    }
+    & h1 {
+        margin: 0;
+        padding:20px;
+        font-size: 300%;
+    }
+}
+h1 {
+    background: darkgray;
+    color:whitesmoke;
+    text-align: center;
+    margin: 0;
+}
+h2 {
+    border-top-width: thin;
+    border-top-style: solid;
+    border-top-color: grey;
+    padding-top: 5px;
+    margin: 0;
+}
+@media screen {
+    body {
+        background: lightgray;
+    }
+
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; 
+        align-content: space-around; 
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 40px;
+        margin: 0 auto;
+    }
+
+    .page {
+        font-size: 75%;
+        background: white;
+        //padding: 20px;
+        border: 2px solid gray;
+        width: 21cm;
+        height: 29.7cm;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        display: block;
+        margin: auto;
+        width: fit-content;
+        text-align: center;
+    }
+}
+@media print {
+    .page {
+        font-size: 75%;
+        background: white;
+        //padding: 20px;
+        width: 21cm;
+        height: 29.7cm;
+        //margin: none;
+    }
+    footer {
+        display: none;
+    }
+}

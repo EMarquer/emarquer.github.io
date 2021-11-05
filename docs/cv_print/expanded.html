@@ -1,0 +1,60 @@
+---
+
+layout: cv
+navlabel: cv
+print: expanded
+---
+
+<div class="page">
+
+<h1>Esteban Marquer - Expanded</h1>
+
+<h2><i class="fas fa-fw fa-flask"></i> Academia</h2>
+<ul class="cv-academia">
+{% for academia in site.data.cv.academia %}
+  <li>
+  {% include cv_print/date.html date=academia.date %}
+  <div class="cv-title">{{ academia.position }}</div>
+  in {% include cv_print/place.html place=academia.place %}
+  {% include cv_print/training_details.html description=academia.description.missions note=academia.description.objective note_first=true
+    print=page.print %}
+  </li>
+{% endfor %}
+</ul>
+
+<h2><i class="fas fa-fw fa-chalkboard-teacher"></i> Teaching</h2>
+<ul class="cv-teaching">
+{% for teaching in site.data.cv.teaching %}
+  <li>{% include cv_print/teaching.html teaching=teaching print=page.print %}</li>
+{% endfor %}
+</ul>
+
+<h2><i class="fas fa-fw fa-graduation-cap"></i> Training</h2>
+<ul class="cv-training">
+{% for training in site.data.cv.training %}
+  <li>
+  {% include cv_print/date.html date=training.date %}
+  <div class="cv-title">{{ training.title }}</div>
+  in {% include cv_print/place.html place=training.place %}
+  {% include cv_print/training_details.html description=training.description note=training.note
+    print=page.print %}
+  </li>
+{% endfor %}
+</ul>
+
+<h2><i class="fas fa-fw fa-briefcase"></i> Other experience</h2>
+<ul class="cv-other">
+{% for other in site.data.cv.other %}
+  <li>
+  {% include cv_print/date.html date=other.date %}
+  <div class="cv-title">{{ other.position }}</div>
+  in {% include cv_print/place.html place=other.place %}
+  {% include cv_print/training_details.html description=other.description.missions note=other.description.objective note_first=true
+    print=page.print %}
+  </li>
+{% endfor %}
+</ul>
+
+<h2><i class="fas fa-fw fa-cogs"></i> Some key skills of mine</h2>
+
+</div>

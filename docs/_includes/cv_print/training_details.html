@@ -1,0 +1,29 @@
+{% if include.description or include.note %}
+{% if include.print=='compact' %}
+<div class="details">
+    {% if include.description.first %}{% if include.note %}{{ include.note | capitalize }}.{% endif %}
+        {% for item in include.description %}
+        <div style="display: inline;">{% if forloop.index0==0 %}{{ item | capitalize }}{% else %}{{ item }}{% endif %}{% if forloop.rindex0==0 %}.{% else %};{% endif %}</div>
+        {% endfor %}
+    {% elsif include.note_first %}
+    {% if include.note %}{{ include.note | capitalize }}{% if include.description %}, {% endif %}{% endif %}{{ include.description }}
+    {% else %}
+    {{ include.description | capitalize }}{% if include.note %}{% if include.description %}, {% endif %}{{ include.note }}{% endif %}
+    {% endif %}
+</div>
+{% else %}
+<div class="details">
+    {% if include.description.first %}{% if include.note %}{{ include.note | capitalize }}.{% endif %}
+    <ul>
+        {% for item in include.description %}
+        <li>{% if forloop.index0==0 %}{{ item | capitalize }}{% else %}{{ item }}{% endif %}</li>
+        {% endfor %}
+    </ul>
+    {% elsif include.note_first %}
+    {% if include.note %}{{ include.note | capitalize }}{% if include.description %}, {% endif %}{% endif %}{{ include.description }}
+    {% else %}
+    {{ include.description | capitalize }}{% if include.note %}{% if include.description %}, {% endif %}{{ include.note }}{% endif %}
+    {% endif %}
+</div>
+{% endif %}
+{% endif %}

@@ -1,0 +1,14 @@
+<div class="cv-place">
+    {% if include.place.institute %}
+        {{ include.place.institute }},
+    {% endif %}
+    {% if include.place.university %}
+        {{ include.place.university }},
+    {% endif %}
+    {% if include.place.city %}
+        {{ include.place.city }},
+    {% endif %}
+    {% if include.place.country %}
+        {{ include.place.country }}.
+    {% endif %}
+</div>

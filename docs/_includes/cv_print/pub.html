@@ -1,0 +1,8 @@
+<strong>{{ include.pub.title }}</strong></br>
+
+<div class="authors">{% for author in include.pub.author %}
+<div class="author {% if author==site.data.publications.me %}me{% endif %}">{{ author }}</div>
+{% endfor %}</div>
+{% if include.pub.booktitle %}</br><div class="booktitle">{{ include.pub.booktitle }}{% if include.pub.date %},{% else %}.{% endif %}</div>{% endif %}
+{% if include.pub.date %}<div class="date">{{ include.pub.date }}{% if include.pub.place %},{% else %}.{% endif %}</div>{% endif %}
+{% if include.pub.place %}<div class="place">{{ include.pub.place }}.</div>{% endif %}

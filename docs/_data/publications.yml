@@ -1,0 +1,149 @@
+## Analogical proportions on embedding spaces
+me: E. Marquer
+pubs:
+- title: On the Transferability of Neural Models of Morphological Analogies.
+  category: Analogical proportions on embedding spaces
+  type: in proceedings
+  author:
+    - S. Alsaidi
+    - A. Decker
+    - P. Lay
+    - E. Marquer
+    - P.-A. Murena
+    - M. Couceiro
+  booktitle: "AIMLAI, ECML PKDD 2021: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases"
+  date: Sep 2021
+  place: Bilbao/Online, Spain
+  links:
+    - ressource: paper
+      format: link
+      source: HAL
+      url: https://hal.inria.fr/hal-03313591
+    - ressource: paper
+      format: pdf
+      source: HAL
+      url: https://hal.inria.fr/hal-03313591/file/AIMLAI2021___On_the_Transferability_of_Neural_Models_of_Morphological_Analogy.pdf
+    - ressource: slides
+      format: pdf
+      url: https://project.inria.fr/aimlai/files/2021/09/AIMLAI_Talk_Transfering_Morphological_Analogies.pdf
+  bib: 
+    "@inproceedings{alsaidi:hal-03313591,
+    TITLE = {{On the Transferability of Neural Models of Morphological Analogies}},
+    AUTHOR = {Alsaidi, Safa and Decker, Amandine and Lay, Puthineath and Marquer, Esteban and Murena, Pierre-Alexandre and Couceiro, Miguel},
+    URL = {https://hal.inria.fr/hal-03313591},
+    BOOKTITLE = {{AIMLAI, ECML PKDD 2021: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases}},
+    ADDRESS = {Bilbao/Virtual, Spain},
+    YEAR = {2021},
+    MONTH = Sep,
+    KEYWORDS = {morphological analogy ; deep learning ; transferability ; analogy classification},
+    PDF = {https://hal.inria.fr/hal-03313591/file/AIMLAI2021___On_the_Transferability_of_Neural_Models_of_Morphological_Analogy.pdf},
+    HAL_ID = {hal-03313591},
+    HAL_VERSION = {v1},
+  }"
+- title: A Neural Approach for Detecting Morphological Analogies.
+  category: Analogical proportions on embedding spaces
+  type: in proceedings
+  author:
+    - S. Alsaidi
+    - A. Decker
+    - P. Lay
+    - E. Marquer
+    - P.-A. Murena
+    - M. Couceiro
+  booktitle: The 8th IEEE International Conference on Data Science and Advanced Analytics (DSAA)
+  date: Oct 2021
+  place: Porto/Online, Portugal
+  links:
+    - ressource: paper
+      format: link
+      source: HAL
+      url: https://hal.inria.fr/hal-03313556
+    - ressource: paper
+      format: pdf
+      source: HAL
+      url: https://hal.inria.fr/hal-03313556/document
+    - ressource: poster
+      format: link
+      source: HAL
+      url: https://hal.inria.fr/hal-03328841
+    - ressource: poster
+      format: pdf
+      source: HAL
+      url: https://hal.inria.fr/hal-03328841/document
+  bib:
+    "@inproceedings{
+  }"
+
+## Embedding spaces for Formal Concept Analysis
+- title: Embedding Formal Contexts Using Unordered Composition.
+  category: Embedding spaces for Formal Concept Analysis
+  type: in proceedings
+  author:
+    - E. Marquer
+    - A. Kulkarni
+    - M. Couceiro
+  booktitle: FCA4AI - 8th International Workshop "What can FCA do for Artificial Intelligence?" (colocated with ECAI2020)
+  date: Aug 2020
+  place: Santiago de Compostela, Spain
+  links:
+    - ressource: paper
+      format: link
+      source: arXiv
+      url: https://arxiv.org/abs/2004.08371
+  bib:
+    "@inproceedings{marquer:hal-02912874,
+    TITLE = {{Embedding Formal Contexts Using Unordered Composition}},
+    AUTHOR = {Marquer, Esteban and Kulkarni, Ajinkya and Couceiro, Miguel},
+    URL = {https://hal.archives-ouvertes.fr/hal-02912874},
+    BOOKTITLE = {{FCA4AI - 8th International Workshop ''What can FCA do for Artificial Intelligence?''  (colocated with ECAI2020)}},
+    ADDRESS = {Santiago de Compostela, Spain},
+    YEAR = {2020},
+    MONTH = Aug,
+    KEYWORDS = {Formal Concept Analysis ; Vector Space Embedding ; Neural Networks ; Complex Data ; Link Prediction ; Clustering},
+    PDF = {https://hal.archives-ouvertes.fr/hal-02912874/file/BoA_article_FCA4AI%20%283%29.pdf},
+    HAL_ID = {hal-02912874},
+    HAL_VERSION = {v1},
+    }"
+- title: LatticeNN - Deep Learning and Formal Concept Analysis.
+  category: Embedding spaces for Formal Concept Analysis
+  type: masters thesis
+  author:
+    - E. Marquer
+  date: Sep 2020
+  place: Santiago de Compostela, Spain
+  links:
+    - ressource: masters thesis
+      format: link
+      source: HAL
+      url: https://hal.inria.fr/hal-02954843
+  bib:
+    "@mastersthesis{marquer:hal-02954843,
+    TITLE = {{LatticeNN -- Deep Learning and Formal Concept Analysis}},
+    AUTHOR = {Marquer, Esteban},
+    URL = {https://hal.inria.fr/hal-02954843},
+    PAGES = {74},
+    SCHOOL = {{Universit{\\'e} de Lorraine}},
+    YEAR = {2020},
+    MONTH = Sep,
+    KEYWORDS = {Formal concept analysis FCA ; deep learning},
+    PDF = {https://hal.inria.fr/hal-02954843/file/master_thesis_emarquer.pdf},
+    HAL_ID = {hal-02954843},
+    HAL_VERSION = {v1},
+    }"
+
+## Other works
+- title: Exploring the Combination of Contextual Word Embeddings and Knowledge Graph Embeddings.
+  category: Other works
+  type: preprint
+  author:
+    - L. Dieudonat
+    - K. Han
+    - P. Leavitt
+    - E. Marquer
+  date: 2020
+  note: student project report
+  links:
+    - ressource: paper
+      format: link
+      source: arXiv
+      url: https://arxiv.org/abs/2004.08371

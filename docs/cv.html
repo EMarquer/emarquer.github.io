@@ -4,14 +4,14 @@ layout: default
 navlabel: cv
 ---
 
-<!--<h3>Export CV as HTML</h3>
+<h3>Export CV as HTML</h3>
 <ul>
-<li>Short</li>
-<li>Accademic</li>
+<li><a href="cv_print/compact.html">Short</a></li>
+<li><a href="cv_print/expanded.html">Expanded</a></li>
+<li><a href="cv_print/accademic.html">Accademic</a></li>
 </ul>
--->
 
-<h2>Academia</h2>
+<h2><i class="fas fa-fw fa-flask"></i> Academia</h2>
 <ul class="cv-academia">
 {% for academia in site.data.cv.academia %}
   <li>
@@ -23,14 +23,14 @@ navlabel: cv
 {% endfor %}
 </ul>
 
-<h2>Teaching</h2>
+<h2><i class="fas fa-fw fa-chalkboard-teacher"></i> Teaching</h2>
 <ul class="cv-teaching">
 {% for teaching in site.data.cv.teaching %}
   <li>{% include cv/teaching.html teaching=teaching %}</li>
 {% endfor %}
 </ul>
 
-<h2>Training</h2>
+<h2><i class="fas fa-fw fa-graduation-cap"></i> Training</h2>
 <ul class="cv-training">
 {% for training in site.data.cv.training %}
   <li>
@@ -42,7 +42,7 @@ navlabel: cv
 {% endfor %}
 </ul>
 
-<h2>Other experience</h2>
+<h2><i class="fas fa-fw fa-briefcase"></i> Other experience</h2>
 <ul class="cv-other">
 {% for other in site.data.cv.other %}
   <li>
@@ -53,3 +53,5 @@ navlabel: cv
   </li>
 {% endfor %}
 </ul>
+
+<h2><i class="fas fa-fw fa-cogs"></i> Some key skills of mine</h2>
