@@ -12,3 +12,7 @@ docs:
 - title: Publications
   url: bib
   label: bib
+
+- title: Teaching
+  url: teaching
+  label: teaching
