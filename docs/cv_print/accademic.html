@@ -6,9 +6,25 @@ print: compact
 ---
 
 <div class="page">
-<h1>Esteban Marquer - Accademic</h1>
+<!--h1>Esteban Marquer - Accademic</h1-->
+<h1>Esteban Marquer - Ph.D. student</h1>
+<ul class="cv-contact">
+<li><i class="fas fa-fw fa-at"></i> {{ site.email }}</li>
+<li><i class="fas fa-fw fa-phone"></i> +33 6 78 09 35 84</li>
+<li><i class="fab fa-fw fa-github"></i> {{ site.github_username }}</li>
+<li><i class="fab fa-fw fa-gitlab"></i> {{ site.gitlab_username }}</li>
+</ul>
 
-<h2><i class="fas fa-fw fa-flask"></i> Academia</h2>
+<h2><i class="fas fa-fw fa-scroll"></i> Research objective</h2>
+<p>
+My current research interests are centered on analogy and the challenges of representation learning, from the axis of deep learning.
+
+Analogical reasoning (AR) and analogical proportions, which are the topic of my Ph.D., are full of potential to capture a key mechanism of human reasoning capability.
+AR allows to reason and transfer knowledge within and across domains, in a similar manner as case-based reasoning.
+A key advantage of AR is the ease of interpretation: the mechanism itself is intuitive, and allows for examples and counterexamples to be found.
+</p>
+
+<h2><i class="fas fa-fw fa-flask"></i> Academia and training</h2>
 <ul class="cv-academia">
 {% for academia in site.data.cv.academia %}
   <li>
@@ -16,6 +32,17 @@ print: compact
   <div class="cv-title">{{ academia.position }}</div>
   in {% include cv_print/place.html place=academia.place %}
   {% include cv_print/training_details.html description=academia.description.missions note=academia.description.objective note_first=true
+    print=page.print %}
+  </li>
+{% endfor %}
+<!--/ul>
+<ul class="cv-training"-->
+{% for training in site.data.cv.training %}
+  <li>
+  {% include cv_print/date.html date=training.date %}
+  <div class="cv-title">{{ training.title }}</div>
+  in {% include cv_print/place.html place=training.place %}
+  {% include cv_print/training_details.html description=training.description note=training.note
     print=page.print %}
   </li>
 {% endfor %}
@@ -28,6 +55,7 @@ print: compact
 {% endfor %}
 </ul>
 
+{% comment %}
 <h2><i class="fas fa-fw fa-graduation-cap"></i> Training</h2>
 <ul class="cv-training">
 {% for training in site.data.cv.training %}
@@ -40,6 +68,7 @@ print: compact
   </li>
 {% endfor %}
 </ul>
+{% endcomment %}
 
 <h2><i class="fas fa-fw fa-briefcase"></i> Other experience</h2>
 <ul class="cv-other">
@@ -57,7 +86,7 @@ print: compact
 
 <div class="page">
   
-<h2><i class="fas fa-fw fa-newspaper"></i> My Publications</h2>
+<h2><i class="fas fa-fw fa-newspaper"></i> Publications</h2>
 
 <ul class="cv-bib">
   {% for pub in site.data.publications.pubs %}

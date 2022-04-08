@@ -1,28 +1,29 @@
 current_position: Ph.D. Student
 
 training:
-  - title: Ph.D.
-    date:
-      start: Oct. 2020
-    place:
-      institute: LORIA, Orpailleur team
-      university: Université de Lorraine
-      city: Nancy
-      country: France
-    description: study of proportional analogy and its applications in machine learning and in particular deep learning
+  # - title: Ph.D.
+  #   date:
+  #     start: Oct. 2020
+  #   place:
+  #     institute: LORIA, Orpailleur team
+  #     university: Université de Lorraine
+  #     city: Nancy
+  #     country: France
+  #   description: study of proportional analogy and its applications in machine learning and in particular deep learning
   - title: Master in Natural Language Processing (NLP)
     date:
-      start: sep. 2018
-      end: jul. 2020
+      start: Sep. 2018
+      end: Jul. 2020
     place:
       institute: Institut des sciences du Digital, Management et Cognition (IDMC)
       university: Université de Lorraine
       city: Nancy
       country: France
-  - title: Baschelor in Mathematics and Computer Science applied to Humanities (MIASHS)
+    description: Courses in English.
+  - title: Bachelor in Mathematics and Computer Science applied to Humanities (MIASHS)
     date:
-      start: sep. 2015
-      end: jul. 2018
+      start: Sep. 2015
+      end: Jul. 2018
     place:
       institute: UFR Mathématiques et Informatique
       university: Université de Lorraine
@@ -35,7 +36,7 @@ training:
       city: Metz
       country: France
     description: Scientific Baccalauréat
-    note: with honors
+    note: with honors.
 
 teaching:
   - position: Teaching assistant
@@ -44,15 +45,17 @@ teaching:
       university: Université de Lorraine
       city: Nancy
       country: France
-    topic: Global Optimisation
+    topic: Global Optimization
     public: 2nd or 3rd year
     date:
       start: 2021
       end: 2022
-    duration: 4 x 2h
+    duration: 8h
+    duration_detail: 4 x 2h
     kind: practicals
-    description: TBD
-    missions: TBD
+    description: Pyomo library, definition of optimization problems, algorithms from Pure Random Search to Monotonic Basin Hopping
+    missions:
+      - giving practical sessions in a mixed theoretical/practical setup (together with the lead teacher)
   - position: Teaching assistant
     place:
       institute: IDMC, NLP Master
@@ -64,11 +67,29 @@ teaching:
     date:
       start: 2021
       end: 2022
-    duration: ...h
+    duration: 9h
+    duration_detail: 6 x 1.5h
     kind: practicals
-    description: TBD
+    description: Formal Concept Analysis (FCA), rule mining, itemset mining
     missions: 
-      - TBD
+      - design and grading of two projects
+      - giving practical sessions (alone)
+  - position: Teaching assistant
+    place:
+      institute: IDMC, NLP Master
+      university: Université de Lorraine
+      city: Nancy
+      country: France
+    topic: Semantic Web
+    public: 1st year
+    date:
+      start: 2021
+      end: 2022
+    duration: 15h
+    kind: practicals
+    description: RDF, turtle, SPARQL, ontology building
+    missions:
+      - giving practical sessions (alone)
   - position: Teaching assistant
     place:
       institute: IDMC, NLP Master
@@ -80,9 +101,9 @@ teaching:
     date:
       start: 2021
       end: 2022
-    duration: ...h
+    duration: 10h
     kind: practicals
-    description: Project driven class, the student have to devlop an innovative tool  
+    description: Project driven class, the student have to develop an innovative tool based on recent academic literature 
     missions:
       - supervision of up to 4 groups
       - writing project topics
@@ -98,7 +119,7 @@ teaching:
     date:
       start: 2020
       end: 2021
-    duration: ...h
+    duration: 6h
     kind: practicals
     description: Formal Concept Analysis (FCA), Description Logics, RDF 
     missions:
@@ -115,16 +136,15 @@ teaching:
     date:
       start: 2020
       end: 2021
-    duration: ...h
+    duration: 8h
     kind: practicals
     description: RDF, RDFS, OWL, manipulation of ontologies with SPARQL and Protégé
     missions:
-      - writing giving practical sessions (alone)
+      - writing and giving practical sessions (alone)
       - writing and overseeing of the final exam
       - writing and overseeing end-of-session tests
   - position: Tutor
-    date:
-      start: Aug. 2019
+    date: Aug. 2019
     duration: 1 week
     place:
       institute: LORIA, Synalp team
@@ -176,7 +196,7 @@ academia:
         - design of a transcription guide
         - recording of audio data
         - initiation to Formal Semantics
-  - position: End of baschelor research internship
+  - position: End of bachelor research internship
     date:
       start: Apr. 2018
       end: Jul. 2018
@@ -224,4 +244,81 @@ other:
         - anomaly detection by comparison of the predicted evolution with the observed evolution of the logs
         - management and analysis of large amounts of data
         - use of PyTorch
-    
+
+languages:
+  - name: English
+    level: professional
+    std_level: C2
+    #certifications: TBD
+  - name: French
+    level: native
+    std_level: C2
+  # - name: Spanish
+  #   level: notions
+  #   std_level: A1
+
+# level_meilir_page_jones: Meilir Pages-Jones levels
+# level_dreyfus: in parenteses, Five Dreyfus Model Stages < recommended for display)
+# level_5: 0 to 5, 6 for expert (custom scale)
+# - Innocent
+# - Exposed
+# - Apprentice: 1
+# - 2:Practitioner (novice/advanced beginner)
+# - 3,4: Journeyman (competent)
+# - 5: Master (proficient)
+# - 6: Researcher (expert)
+dev:
+  - category: Programing
+    languages:
+    - language: Python
+      #certifications: TBD
+      level_meilir_page_jones: master
+      level_dreyfus: proficient
+      level_5: 5
+      libraries:
+        - PyTorch
+        - numpy
+        - matplotlib/seaborn
+        - pandas
+        - scikit-learn
+        - NLTK
+        - Spacy
+        - Flask
+    - language: Java
+      #certifications: TBD
+      level_meilir_page_jones: journeyman
+      level_dreyfus: competent
+      level_5: 3
+    - language: C#
+      #certifications: TBD
+      level_meilir_page_jones: practitioner
+      level_dreyfus: advanced beginner
+      level_5: 2
+      libraries:
+        - Unity
+  - category: Web
+    level_meilir_page_jones: practitioner
+    level_dreyfus: advanced beginner
+    level_5: 2
+    languages:
+    - language: HTML
+    - language: CSS
+    - language: JS
+    - language: Jekyll
+  - category: Writing
+    languages:
+    - language: Latex
+      level_meilir_page_jones: journeyman
+      level_dreyfus: competent
+      level_5: 4
+    - language: LibreOffice
+  - category: OS
+    languages:
+    - language: Ubuntu
+      level_meilir_page_jones: journeyman
+      level_dreyfus: competent
+      level_5: 3
+    - language: Windows
+      level_meilir_page_jones: journeyman
+      level_dreyfus: competent
+      level_5: 3

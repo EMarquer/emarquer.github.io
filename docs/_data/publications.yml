@@ -147,3 +147,6 @@ pubs:
       format: link
       source: arXiv
       url: https://arxiv.org/abs/2004.08371
+confs:
+  - title: DSAA
+  - date: 

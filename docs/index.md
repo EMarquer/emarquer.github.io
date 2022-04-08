@@ -9,10 +9,10 @@ navlabel: index
 See my [CV](cv) for further detail on my learning and professional experience.
 
 ## Research interests
-My current research interests are centered on analogy and the challenges of representation learning.
+My current research interests are centered on analogy and the challenges of representation learning, from the axis of deep learning.
 
-Analogical reasoning and analogical proportions, which are the topic of my Ph.D., are full of potential to capture a key mecanism of human reasoning capability [[1]](some bib reference here).
-Analogical reasoning allows to reason and transfer 
+Analogical reasoning (AR) and analogical proportions, which are the topic of my Ph.D., are full of potential to capture a key mechanism of human reasoning capability. AR allows to reason and transfer knowledge within and across domains, in a similar manner as case-based reasoning. A key advantage of AR is the ease of interpretation: the mechanism itself is intuitive, and allows for examples and counterexamples to be found.
+
 
 
 ## Contact & social
@@ -28,7 +28,7 @@ You can also find me on:
 - [GitHub](https://github.com/{{ site.github_username }}) and [GitLab](https://gitlab.com/{{ site.gitlab_username }}).
 
 ## Teaching
-Currently, I have no teaching material to share. However, you can see the list of my teaching experience in my [CV](cv).
+You can find various ressources I use for teaching [here](teaching). You can see the list of my teaching experience in my [CV](cv).
 
 ## Key publications
 The following bublications are those I consider the most representative of my work.

@@ -4,7 +4,7 @@ title: Esteban Marquer's publications
 navlabel: bib
 ---
 
-<!-- A terme, trier par journal/conference (c'est comme ça qu'il faut faire quand on candidate quelquepar) -->
+<!-- A terme, trier par journal/conference (c'est comme ça qu'il faut faire quand on candidate quelque par) -->
 <!-- Voir pour faire plus petit -->
 
 ## Analogical proportions on embedding spaces

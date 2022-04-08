@@ -2,6 +2,18 @@
 ---
 
 ins {text-decoration-thickness: 5%;}
+.cv-contact{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    li {
+        flex-grow: 1;
+    }
+}
 .cv-training,.cv-teaching,.cv-academia,.cv-other {
     .cv-place {
         display: inline;
@@ -96,12 +108,15 @@ h2 {
 }
 @media print {
     .page {
-        font-size: 75%;
+        font-size: 65%;
         background: white;
         //padding: 20px;
-        width: 21cm;
-        height: 29.7cm;
-        //margin: none;
+        //font-size: 70%;
+        //width: 21cm;
+        //height: 29.7cm;
+        width: 18.46cm;
+        height: 27.16cm;
+        page-break-after: always;
     }
     footer {
         display: none;

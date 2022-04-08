@@ -54,4 +54,11 @@ navlabel: cv
 {% endfor %}
 </ul>
 
-<h2><i class="fas fa-fw fa-cogs"></i> Some key skills of mine</h2>
+<h2><i class="fas fa-fw fa-cogs"></i> Some skills of mine</h2>
+<ul class="cv-other">
+{% for lang in site.data.cv.languages %}
+  <li>
+  <div class="cv-title">{{ lang.name }}:</div> {{ lang.level }} ({{ lang.std_level }})
+  </li>
+{% endfor %}
+</ul>

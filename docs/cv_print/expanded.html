@@ -8,6 +8,12 @@ print: expanded
 <div class="page">
 
 <h1>Esteban Marquer - Expanded</h1>
+<ul class="cv-contact">
+<li><i class="fas fa-fw fa-at"></i> {{ site.email }}</li>
+<li><i class="fas fa-fw fa-phone"></i> +33 6 78 09 35 84</li>
+<li><i class="fab fa-fw fa-github"></i> {{ site.github_username }}</li>
+<li><i class="fab fa-fw fa-gitlab"></i> {{ site.gitlab_username }}</li>
+</ul>
 
 <h2><i class="fas fa-fw fa-flask"></i> Academia</h2>
 <ul class="cv-academia">
@@ -19,13 +25,6 @@ print: expanded
   {% include cv_print/training_details.html description=academia.description.missions note=academia.description.objective note_first=true
     print=page.print %}
   </li>
-{% endfor %}
-</ul>
-
-<h2><i class="fas fa-fw fa-chalkboard-teacher"></i> Teaching</h2>
-<ul class="cv-teaching">
-{% for teaching in site.data.cv.teaching %}
-  <li>{% include cv_print/teaching.html teaching=teaching print=page.print %}</li>
 {% endfor %}
 </ul>
 
@@ -54,7 +53,23 @@ print: expanded
   </li>
 {% endfor %}
 </ul>
+</div>
 
-<h2><i class="fas fa-fw fa-cogs"></i> Some key skills of mine</h2>
+<div class="page">
+<h2><i class="fas fa-fw fa-chalkboard-teacher"></i> Teaching</h2>
+<ul class="cv-teaching">
+{% for teaching in site.data.cv.teaching %}
+  <li>{% include cv_print/teaching.html teaching=teaching print=page.print %}</li>
+{% endfor %}
+</ul>
+
+<h2><i class="fas fa-fw fa-cogs"></i> Some skills of mine</h2>
+<ul class="cv-other">
+{% for lang in site.data.cv.languages %}
+  <li>
+  <div class="cv-title">{{ lang.name }}:</div> {{ lang.level }} ({{ lang.std_level }})
+  </li>
+{% endfor %}
+</ul>
 
 </div>
