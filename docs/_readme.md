@@ -1,5 +1,6 @@
 install
 `sudo apt-get install ruby-full`
+`sudo apt-get install ruby2.7-dev`
 `sudo gem install jekyll bundler`
 
 run locally:
