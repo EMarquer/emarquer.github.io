@@ -1,8 +1,19 @@
 ## Analogical proportions on embedding spaces
 me: E. Marquer
+venuetypes:
+- Special issue article
+- Conference
+- Workshop
+- Other
+categories:
+- Analogical proportions on embedding spaces
+- Embedding spaces for Formal Concept Analysis
+- Combination of embedding spaces
+- Other topics
 pubs:
 - title: "Solving Morphological Analogies: from Retrieval to Generation."
   category: Analogical proportions on embedding spaces
+  venuetype: Special issue article
   type:
     - unpublished
   author:
@@ -11,15 +22,15 @@ pubs:
   #booktitle: "ICCBR"
   note: "submitted to Springer special Issue in Annals of Mathematics and Artificial Intelligence: Mathematical Foundations of analogical reasoning and applications"
   date: 2023
-  links:
-  bib: 
-    "@article{DBLP:conf/iccbr/MarquerADMC22,
-    author    = {Esteban Marquer and
-                Miguel Couceiro},
-    title     = {Solving morphological analogies: from retrieval to generation},
-  }"
+  #links:
+  bib: "@article{MarquerAMAI22,\n
+      author    = {Esteban Marquer and\n
+                   Miguel Couceiro},\n
+      title     = {Solving morphological analogies: from retrieval to generation},\n
+    }"
 - title: A Deep Learning Approach to Solving Morphological Analogies.
   category: Analogical proportions on embedding spaces
+  venuetype: Conference
   type:
     - in proceedings
     - conference
@@ -34,44 +45,43 @@ pubs:
   place: Nancy, France
   links:
     - ressource: paper
-      format: link
-      source: Springer
-      url: https://doi.org/10.1007/978-3-031-14923-8_11
-    - ressource: paper
-      format: link
-      source: HAL
-      url: https://hal.science/hal-03660625/
-    - ressource: paper
-      format: pdf
-      source: HAL
-      url: https://hal.inria.fr/hal-03660625v1/document
+      links:
+      - format: page
+        source: Springer
+        url: https://doi.org/10.1007/978-3-031-14923-8_11
+      - format: page
+        source: HAL
+        url: https://hal.science/hal-03660625/
+      - format: PDF
+        source: HAL
+        url: https://hal.inria.fr/hal-03660625v1/document
     - ressource: poster
-      format: pdf
-      source: HAL
-      url: https://hal.inria.fr/hal-03660625v1/document
-  bib: 
-    "@inproceedings{DBLP:conf/iccbr/MarquerADMC22,
-    author    = {Esteban Marquer and
-                Safa Alsaidi and
-                Amandine Decker and
-                Pierre{-}Alexandre Murena and
-                Miguel Couceiro},
-    editor    = {Mark T. Keane and
-                Nirmalie Wiratunga},
-    title     = {A Deep Learning Approach to Solving Morphological Analogies},
-    booktitle = {Case-Based Reasoning Research and Development - 30th International
-                Conference, {ICCBR} 2022, Nancy, France, September 12-15, 2022, Proceedings},
-    series    = {Lecture Notes in Computer Science},
-    volume    = {13405},
-    pages     = {159--174},
-    publisher = {Springer},
-    year      = {2022},
-    url       = {https://doi.org/10.1007/978-3-031-14923-8\_11},
-    doi       = {10.1007/978-3-031-14923-8\_11},
-    pdf       = {https://hal.inria.fr/hal-03660625v1/document},
+      links:
+      - format: PDF
+        source: HAL
+        url: https://hal.inria.fr/hal-03660625v1/document
+  bib: "@inproceedings{DBLP:conf/iccbr/MarquerADMC22,\n
+    author    = {Esteban Marquer and\n
+                 Safa Alsaidi and\n
+                 Amandine Decker and\n
+                 Pierre{-}Alexandre Murena and\n
+                 Miguel Couceiro},\n
+    editor    = {Mark T. Keane and\n
+                 Nirmalie Wiratunga},\n
+    title     = {A Deep Learning Approach to Solving Morphological Analogies},\n
+    booktitle = {Case-Based Reasoning Research and Development - 30th International Conference, {ICCBR} 2022},\n
+    series    = {Lecture Notes in Computer Science},\n
+    volume    = {13405},\n
+    pages     = {159--174},\n
+    publisher = {Springer},\n
+    year      = {2022},\n
+    url       = {https://doi.org/10.1007/978-3-031-14923-8\_11},\n
+    doi       = {10.1007/978-3-031-14923-8\_11},\n
+    pdf       = {https://hal.inria.fr/hal-03660625v1/document},\n
   }"
 - title: Solving Morphological Analogies Through Generation.
   category: Analogical proportions on embedding spaces
+  venuetype: Workshop
   type:
     - in proceedings
     - workshop
@@ -86,36 +96,37 @@ pubs:
   #place: 
   links:
     - ressource: paper
-      format: link
-      source: HAL
-      url: https://hal.inria.fr/hal-03674913/
-    - ressource: paper
-      format: pdf
-      source: CEUR-WS
-      url: https://ceur-ws.org/Vol-3174/paper3.pdf
+      links:
+      - format: page
+        source: HAL
+        url: https://hal.inria.fr/hal-03674913/
+      - format: PDF
+        source: CEUR-WS
+        url: https://ceur-ws.org/Vol-3174/paper3.pdf
   bib: 
-    "@inproceedings{DBLP:conf/ijcai/ChanKSMC22,
-    author    = {Kevin Chan and
-                Shane P. Kaszefski{-}Yaschuk and
-                Camille Saran and
-                Esteban Marquer and
-                Miguel Couceiro},
-    editor    = {Miguel Couceiro and
-                Pierre{-}Alexandre Murena},
-    title     = {Solving Morphological Analogies Through Generation},
-    booktitle = {Proceedings of the Workshop on the Interactions between Analogical
-                Reasoning and Machine Learning (International Joint Conference on
-                Artificial Intelligence - European Conference on Artificial Intelligence
-                {(IJAI-ECAI} 2022)), Vienna, Austria, July 23, 2022},
-    series    = {{CEUR} Workshop Proceedings},
-    volume    = {3174},
-    pages     = {29--39},
-    publisher = {CEUR-WS.org},
-    year      = {2022},
-    url       = {https://ceur-ws.org/Vol-3174/paper3.pdf},
+    "@inproceedings{DBLP:conf/ijcai/ChanKSMC22,\n
+    author    = {Kevin Chan and\n
+                Shane P. Kaszefski{-}Yaschuk and\n
+                Camille Saran and\n
+                Esteban Marquer and\n
+                Miguel Couceiro},\n
+    editor    = {Miguel Couceiro and\n
+                Pierre{-}Alexandre Murena},\n
+    title     = {Solving Morphological Analogies Through Generation},\n
+    booktitle = {Proceedings of the Workshop on the Interactions between Analogical\n
+                Reasoning and Machine Learning (International Joint Conference on\n
+                Artificial Intelligence - European Conference on Artificial Intelligence\n
+                {(IJAI-ECAI} 2022)), Vienna, Austria, July 23, 2022},\n
+    series    = {{CEUR} Workshop Proceedings},\n
+    volume    = {3174},\n
+    pages     = {29--39},\n
+    publisher = {CEUR-WS.org},\n
+    year      = {2022},\n
+    url       = {https://ceur-ws.org/Vol-3174/paper3.pdf},\n
   }"
 - title: Transferring Learned Models of Morphological Analogy.
   category: Analogical proportions on embedding spaces
+  venuetype: Workshop
   type:
     - in proceedings
     - workshop
@@ -128,32 +139,34 @@ pubs:
   place: Nancy, France
   links:
     - ressource: paper
-      format: link
-      source: HAL
-      url: https://hal.inria.fr/hal-03783959
-    - ressource: paper
-      format: pdf
-      source: HAL
-      url: https://hal.inria.fr/hal-03783959/file/ATA_ICCBR_2022_Transferring_Analogy.pdf
+      links:
+      - format: page
+        source: HAL
+        url: https://hal.inria.fr/hal-03783959
+      - format: PDF
+        source: HAL
+        url: https://hal.inria.fr/hal-03783959/file/ATA_ICCBR_2022_Transferring_Analogy.pdf
     - ressource: slides
-      format: pdf
-      url: https://github.com/pmonnin/ata2022-papers-slides/raw/main/slides/ATA_2022_emarquer.pdf
+      links:
+      - format: PDF
+        url: https://github.com/pmonnin/ata2022-papers-slides/raw/main/slides/ATA_2022_emarquer.pdf
   bib: 
-    "@inproceedings{marquer:hal-03783959,
-    TITLE = {{Transferring Learned Models of Morphological Analogy}},
-    AUTHOR = {Marquer, Esteban and Murena, Pierre-Alexandre and Couceiro, Miguel},
-    URL = {https://hal.inria.fr/hal-03783959},
-    BOOKTITLE = {{ATA@ICCBR2022 - Analogies: from Theory to Applications (ATA@ICCBR2022)}},
-    ADDRESS = {Nancy, France},
-    YEAR = {2022},
-    MONTH = Sep,
-    KEYWORDS = {Transfer ; Morphological analogies ; Analogy detection},
-    PDF = {https://hal.inria.fr/hal-03783959/file/ATA_ICCBR_2022_Transferring_Analogy.pdf},
-    HAL_ID = {hal-03783959},
-    HAL_VERSION = {v1},
+    "@inproceedings{marquer:hal-03783959,\n
+    TITLE = {{Transferring Learned Models of Morphological Analogy}},\n
+    AUTHOR = {Marquer, Esteban and Murena, Pierre-Alexandre and Couceiro, Miguel},\n
+    URL = {https://hal.inria.fr/hal-03783959},\n
+    BOOKTITLE = {{ATA@ICCBR2022 - Analogies: from Theory to Applications (ATA@ICCBR2022)}},\n
+    ADDRESS = {Nancy, France},\n
+    YEAR = {2022},\n
+    MONTH = Sep,\n
+    KEYWORDS = {Transfer ; Morphological analogies ; Analogy detection},\n
+    PDF = {https://hal.inria.fr/hal-03783959/file/ATA_ICCBR_2022_Transferring_Analogy.pdf},\n
+    HAL_ID = {hal-03783959},\n
+    HAL_VERSION = {v1},\n
   }"
 - title: Tackling Morphological Analogies Using Deep Learning - Extended Version.
   category: Analogical proportions on embedding spaces
+  venuetype: Conference
   type:
     - preprint
     - unpublished
@@ -168,30 +181,31 @@ pubs:
   #place: 
   links:
     - ressource: paper
-      format: link
-      source: arXiv
-      url: https://arxiv.org/abs/2111.05147
-    - ressource: paper
-      format: pdf
-      source: arXiv
-      url: https://arxiv.org/pdf/2111.05147.pdf
+      links:
+      - format: page
+        source: arXiv
+        url: https://arxiv.org/abs/2111.05147
+      - format: PDF
+        source: arXiv
+        url: https://arxiv.org/pdf/2111.05147.pdf
   bib: 
-    "@article{DBLP:journals/corr/abs-2111-05147,
-    author     = {Safa Alsaidi and
-                  Amandine Decker and
-                  Esteban Marquer and
-                  Pierre{-}Alexandre Murena and
-                  Miguel Couceiro},
-    title      = {Tackling Morphological Analogies Using Deep Learning - Extended Version},
-    journal    = {CoRR},
-    volume     = {abs/2111.05147},
-    year       = {2021},
-    url        = {https://arxiv.org/abs/2111.05147},
-    eprinttype = {arXiv},
-    eprint    = {2111.05147},
+    "@article{DBLP:journals/corr/abs-2111-05147,\n
+    author     = {Safa Alsaidi and\n
+                  Amandine Decker and\n
+                  Esteban Marquer and\n
+                  Pierre{-}Alexandre Murena and\n
+                  Miguel Couceiro},\n
+    title      = {Tackling Morphological Analogies Using Deep Learning - Extended Version},\n
+    journal    = {CoRR},\n
+    volume     = {abs/2111.05147},\n
+    year       = {2021},\n
+    url        = {https://arxiv.org/abs/2111.05147},\n
+    eprinttype = {arXiv},\n
+    eprint    = {2111.05147},\n
   }"
 - title: On the Transferability of Neural Models of Morphological Analogies.
   category: Analogical proportions on embedding spaces
+  venuetype: Workshop
   type: 
     - in proceedings
     - workshop
@@ -207,36 +221,38 @@ pubs:
   place: Bilbao/Online, Spain
   links:
     - ressource: paper
-      format: link
-      source: HAL
-      url: https://hal.inria.fr/hal-03313591
-    - ressource: paper
-      format: pdf
-      source: HAL
-      url: https://hal.inria.fr/hal-03313591/file/AIMLAI2021___On_the_Transferability_of_Neural_Models_of_Morphological_Analogy.pdf
+      links:
+      - format: page
+        source: HAL
+        url: https://hal.inria.fr/hal-03313591
+      - format: PDF
+        source: HAL
+        url: https://hal.inria.fr/hal-03313591/file/AIMLAI2021___On_the_Transferability_of_Neural_Models_of_Morphological_Analogy.pdf
     - ressource: slides
-      format: pdf
-      url: https://project.inria.fr/aimlai/files/2021/09/AIMLAI_Talk_Transfering_Morphological_Analogies.pdf
+      links:
+      - format: PDF
+        url: https://project.inria.fr/aimlai/files/2021/09/AIMLAI_Talk_Transfering_Morphological_Analogies.pdf
   bib: 
-    "@inproceedings{alsaidi:hal-03313591,
-    TITLE       = {{On the Transferability of Neural Models of Morphological Analogies}},
-    AUTHOR      = {Alsaidi, Safa and Decker, Amandine and Lay, Puthineath and Marquer, Esteban and Murena, Pierre-Alexandre and Couceiro, Miguel},
-    BOOKTITLE   = {{AIMLAI, ECML PKDD 2021: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases}},
-    ADDRESS     = {Bilbao/Virtual, Spain},
-    YEAR        = {2021},
-    KEYWORDS    = {morphological analogy ; deep learning ; transferability ; analogy classification},
-    HAL_ID      = {hal-03313591},
-    HAL_VERSION = {v1},
-    URL         = {https://hal.inria.fr/hal-03313591},
-    PDF         = {https://hal.inria.fr/hal-03313591/file/AIMLAI2021___On_the_Transferability_of_Neural_Models_of_Morphological_Analogy.pdf},
-    series      = {Communications in Computer and Information Science},
-    volume      = {1524},
-    pages       = {76--89},
-    publisher   = {Springer},
-    doi         = {10.1007/978-3-030-93736-2\_7},
+    "@inproceedings{alsaidi:hal-03313591,\n
+    TITLE       = {{On the Transferability of Neural Models of Morphological Analogies}},\n
+    AUTHOR      = {Alsaidi, Safa and Decker, Amandine and Lay, Puthineath and Marquer, Esteban and Murena, Pierre-Alexandre and Couceiro, Miguel},\n
+    BOOKTITLE   = {{AIMLAI, ECML PKDD 2021: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases}},\n
+    ADDRESS     = {Bilbao/Virtual, Spain},\n
+    YEAR        = {2021},\n
+    KEYWORDS    = {morphological analogy ; deep learning ; transferability ; analogy classification},\n
+    HAL_ID      = {hal-03313591},\n
+    HAL_VERSION = {v1},\n
+    URL         = {https://hal.inria.fr/hal-03313591},\n
+    PDF         = {https://hal.inria.fr/hal-03313591/file/AIMLAI2021___On_the_Transferability_of_Neural_Models_of_Morphological_Analogy.pdf},\n
+    series      = {Communications in Computer and Information Science},\n
+    volume      = {1524},\n
+    pages       = {76--89},\n
+    publisher   = {Springer},\n
+    doi         = {10.1007/978-3-030-93736-2\_7},\n
   }"
 - title: A Neural Approach for Detecting Morphological Analogies.
   category: Analogical proportions on embedding spaces
+  venuetype: Conference
   type: 
     - in proceedings
     - conference
@@ -248,46 +264,47 @@ pubs:
     - P.-A. Murena
     - M. Couceiro
   booktitle: DSAA
-  date: Oct 2021
+  date: 2021
   place: Porto/Online, Portugal
   links:
     - ressource: paper
-      format: link
-      source: HAL
-      url: https://hal.inria.fr/hal-03313556
-    - ressource: paper
-      format: pdf
-      source: HAL
-      url: https://hal.inria.fr/hal-03313556/document
+      links:
+      - format: page
+        source: HAL
+        url: https://hal.inria.fr/hal-03313556
+      - format: PDF
+        source: HAL
+        url: https://hal.inria.fr/hal-03313556/document
     - ressource: poster
-      format: link
-      source: HAL
-      url: https://hal.inria.fr/hal-03328841
-    - ressource: poster
-      format: pdf
-      source: HAL
-      url: https://hal.inria.fr/hal-03328841/document
+      links:
+      - format: page
+        source: HAL
+        url: https://hal.inria.fr/hal-03328841
+      - format: PDF
+        source: HAL
+        url: https://hal.inria.fr/hal-03328841/document
   bib:
-    "@inproceedings{DBLP:conf/dsaa/AlsaidiDLMMC21,
-    author    = {Safa Alsaidi and
-                Amandine Decker and
-                Puthineath Lay and
-                Esteban Marquer and
-                Pierre{-}Alexandre Murena and
-                Miguel Couceiro},
-    title     = {A Neural Approach for Detecting Morphological Analogies},
-    booktitle = {8th {IEEE} International Conference on Data Science and Advanced Analytics,
-                {DSAA} 2021, Porto, Portugal, October 6-9, 2021},
-    pages     = {1--10},
-    publisher = {{IEEE}},
-    year      = {2021},
-    url       = {https://doi.org/10.1109/DSAA53316.2021.9564186},
-    doi       = {10.1109/DSAA53316.2021.9564186},
+    "@inproceedings{DBLP:conf/dsaa/AlsaidiDLMMC21,\n
+    author    = {Safa Alsaidi and\n
+                Amandine Decker and\n
+                Puthineath Lay and\n
+                Esteban Marquer and\n
+                Pierre{-}Alexandre Murena and\n
+                Miguel Couceiro},\n
+    title     = {A Neural Approach for Detecting Morphological Analogies},\n
+    booktitle = {8th {IEEE} International Conference on Data Science and Advanced Analytics,\n
+                {DSAA} 2021, Porto, Portugal, October 6-9, 2021},\n
+    pages     = {1--10},\n
+    publisher = {{IEEE}},\n
+    year      = {2021},\n
+    url       = {https://doi.org/10.1109/DSAA53316.2021.9564186},\n
+    doi       = {10.1109/DSAA53316.2021.9564186},\n
   }"
 
 ## Embedding spaces for Formal Concept Analysis
 - title: Embedding Formal Contexts Using Unordered Composition.
   category: Embedding spaces for Formal Concept Analysis
+  venuetype: Workshop
   type:
     - in proceedings
     - workshop
@@ -300,25 +317,30 @@ pubs:
   place: Santiago de Compostela, Spain
   links:
     - ressource: paper
-      format: link
-      source: arXiv
-      url: https://arxiv.org/abs/2004.08371
+      links:
+      - format: page
+        source: arXiv
+        url: https://arxiv.org/abs/2004.08371
+      - format: PDF
+        source: arXiv
+        url: https://arxiv.org/pdf/2004.08371.pdf
   bib:
-    "@inproceedings{marquer:hal-02912874,
-    TITLE = {{Embedding Formal Contexts Using Unordered Composition}},
-    AUTHOR = {Marquer, Esteban and Kulkarni, Ajinkya and Couceiro, Miguel},
-    URL = {https://hal.archives-ouvertes.fr/hal-02912874},
-    BOOKTITLE = {{FCA4AI - 8th International Workshop ''What can FCA do for Artificial Intelligence?''  (colocated with ECAI2020)}},
-    ADDRESS = {Santiago de Compostela, Spain},
-    YEAR = {2020},
-    MONTH = Aug,
-    KEYWORDS = {Formal Concept Analysis ; Vector Space Embedding ; Neural Networks ; Complex Data ; Link Prediction ; Clustering},
-    PDF = {https://hal.archives-ouvertes.fr/hal-02912874/file/BoA_article_FCA4AI%20%283%29.pdf},
-    HAL_ID = {hal-02912874},
-    HAL_VERSION = {v1},
+    "@inproceedings{marquer:hal-02912874,\n
+    TITLE = {{Embedding Formal Contexts Using Unordered Composition}},\n
+    AUTHOR = {Marquer, Esteban and Kulkarni, Ajinkya and Couceiro, Miguel},\n
+    URL = {https://hal.archives-ouvertes.fr/hal-02912874},\n
+    BOOKTITLE = {{FCA4AI - 8th International Workshop ''What can FCA do for Artificial Intelligence?''  (colocated with ECAI2020)}},\n
+    ADDRESS = {Santiago de Compostela, Spain},\n
+    YEAR = {2020},\n
+    MONTH = Aug,\n
+    KEYWORDS = {Formal Concept Analysis ; Vector Space Embedding ; Neural Networks ; Complex Data ; Link Prediction ; Clustering},\n
+    PDF = {https://hal.archives-ouvertes.fr/hal-02912874/file/BoA_article_FCA4AI%20%283%29.pdf},\n
+    HAL_ID = {hal-02912874},\n
+    HAL_VERSION = {v1},\n
     }"
 - title: LatticeNN - Deep Learning and Formal Concept Analysis.
   category: Embedding spaces for Formal Concept Analysis
+  venuetype: Other
   type:
     - masters thesis
   author:
@@ -327,27 +349,32 @@ pubs:
   place: Santiago de Compostela, Spain
   links:
     - ressource: masters thesis
-      format: link
-      source: HAL
-      url: https://hal.inria.fr/hal-02954843
+      links:
+      - format: page
+        source: HAL
+        url: https://hal.inria.fr/hal-02954843
+      - format: PDF
+        source: HAL
+        url: https://hal.inria.fr/hal-02954843v1/document
   bib:
-    "@mastersthesis{marquer:hal-02954843,
-    TITLE = {{LatticeNN -- Deep Learning and Formal Concept Analysis}},
-    AUTHOR = {Marquer, Esteban},
-    URL = {https://hal.inria.fr/hal-02954843},
-    PAGES = {74},
-    SCHOOL = {{Universit{\\'e} de Lorraine}},
-    YEAR = {2020},
-    MONTH = Sep,
-    KEYWORDS = {Formal concept analysis FCA ; deep learning},
-    PDF = {https://hal.inria.fr/hal-02954843/file/master_thesis_emarquer.pdf},
-    HAL_ID = {hal-02954843},
-    HAL_VERSION = {v1},
+    "@mastersthesis{marquer:hal-02954843,\n
+    TITLE = {{LatticeNN -- Deep Learning and Formal Concept Analysis}},\n
+    AUTHOR = {Marquer, Esteban},\n
+    URL = {https://hal.inria.fr/hal-02954843},\n
+    PAGES = {74},\n
+    SCHOOL = {{Universit{\\'e} de Lorraine}},\n
+    YEAR = {2020},\n
+    MONTH = Sep,\n
+    KEYWORDS = {Formal concept analysis FCA ; deep learning},\n
+    PDF = {https://hal.inria.fr/hal-02954843/file/master_thesis_emarquer.pdf},\n
+    HAL_ID = {hal-02954843},\n
+    HAL_VERSION = {v1},\n
     }"
 
 ## Other works
 - title: Exploring the Combination of Contextual Word Embeddings and Knowledge Graph Embeddings.
-  category: Other works
+  category: Combination of embedding spaces
+  venuetype: Other
   type:
     - preprint
     - unpublished
@@ -360,9 +387,10 @@ pubs:
   note: student project report
   links:
     - ressource: paper
-      format: link
-      source: arXiv
-      url: https://arxiv.org/abs/2004.08371
-confs:
-  - title: DSAA
-  - date: 
+      links:
+      - format: page
+        source: arXiv
+        url: https://arxiv.org/abs/2004.08371
+      - format: PDF
+        source: arXiv
+        url: https://arxiv.org/pdf/2004.08371.pdf

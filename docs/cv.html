@@ -3,13 +3,13 @@
 layout: default
 navlabel: cv
 ---
-
+<!-- 
 <h3>Export CV as HTML</h3>
 <ul>
 <li><a href="cv_print/compact.html">Short</a></li>
 <li><a href="cv_print/expanded.html">Expanded</a></li>
 <li><a href="cv_print/accademic.html">Accademic</a></li>
-</ul>
+</ul> -->
 
 <h2><i class="fas fa-fw fa-flask"></i> Academia</h2>
 <ul class="cv-academia">
@@ -53,6 +53,30 @@ navlabel: cv
   </li>
 {% endfor %}
 </ul>
+
+
+{% comment %}
+<h2><i class="fas fa-fw fa-book-open-reader"></i> Supervision</h2>
+<h3>Interns</h3>
+<ul class="cv-teaching">
+{% for teaching in site.data.cv.tutoring.intern %}
+  <li>{% include cv/teaching.html teaching=teaching %}</li>
+{% endfor %}
+</ul>
+<h3>Students</h3>
+<ul class="cv-teaching">
+{% for teaching in site.data.cv.tutoring.student %}
+  <li>{% include cv/teaching.html teaching=teaching %}</li>
+{% endfor %}
+</ul>
+
+<h2><i class="fas fa-fw fa-users"></i> Organization</h2>
+<ul class="cv-teaching">
+{% for teaching in site.data.cv.management %}
+  <li>{% include cv/teaching.html teaching=teaching %}</li>
+{% endfor %}
+</ul>
+{% endcomment %}
 
 <h2><i class="fas fa-fw fa-cogs"></i> Some skills of mine</h2>
 <ul class="cv-other">

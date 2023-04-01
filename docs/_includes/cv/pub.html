@@ -1,0 +1,30 @@
+<strong>{{ include.pub.title }}</strong></br>
+
+<div class="authors">{% for author in include.pub.author %}
+<div class="author {% if author==site.data.publications.me %}me{% endif %}">{{ author }}</div>
+{% endfor %}</div>
+{% if include.pub.booktitle %}</br><div class="booktitle">{{ include.pub.booktitle }}{% if include.pub.date %},{% else %}.{% endif %}</div>{% endif %}
+{% if include.pub.date %}<div class="date">{{ include.pub.date }}{% if include.pub.place %},{% else %}.{% endif %}</div>{% endif %}
+{% if include.pub.place %}<div class="place">{{ include.pub.place }}.</div>{% endif %}
+{% if include.pub.note %}<div class="note">{{ include.pub.note }}.</div>{% endif %}
+{% if include.pub.links %}<div class="links"><details class="links">
+    <summary>Links </summary>
+    {% if include.pub.links.first %}{% assign links = include.pub.links %}{% else %}{% assign links = [include.pub.links] %}{% endif %}
+        {% for ressource in links %}
+        <div class="ressource">{{ ressource.ressource }} ({% for link in ressource.links %}
+            <a href="{{ link.url }}">{{ link.format }}{% if link.source %} from {{ link.source }}{% endif %}</a>
+        {% endfor %})</div>
+        {% endfor %}
+<br/>
+</details></div>{% endif %}
+{% if include.pub.bib %}
+<div class=bib>
+<details class=bib>
+    <summary>.BIB entries </summary>
+    {% highlight bib %}
+    {{ include.pub.bib }}
+    {% endhighlight %}
+    </details>
+    <br/>
+</div>
+{% endif %}

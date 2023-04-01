@@ -271,7 +271,7 @@ academia:
         - participation in the ITEA3-PAPUD European project
   
 tutoring:
-  - intern:
+  intern:
     - position: Masters internship supervisor
       date:
         start: ??? 2020
@@ -326,7 +326,7 @@ tutoring:
         outcomes:
           - ???
 
-  - student:
+  student:
     - position: Project supervisor
       date:
         start: 2020

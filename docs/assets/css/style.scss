@@ -40,7 +40,7 @@ details.cv{
     &[open] > summary:first-of-type::after {content: ":";}
     &:not([open]) > summary:first-of-type::after {content: "...";}
 }
-details.bib{
+details.bib, details.links{
     font-size: smaller;
     code {font-size: smaller;}
     &> summary:first-of-type {
@@ -49,7 +49,56 @@ details.bib{
         cursor: pointer;
     }
     &[open] > summary:first-of-type::after {content: "(click to collapse)";}
-    &:not([open]) > summary:first-of-type::after {content: "(click to extend)";}
+    &:not([open]) > summary:first-of-type::after {content: "(click to unfold)";}
+}
+
+.publications {
+    .bib-item {
+        .authors {display: inline;}
+        .author {display: inline;}
+        .author:not(:last-child)::after {content: ",";}
+        .author:last-child::after {content: ".";}
+        .author.me {text-decoration: underline;}
+        .booktitle,.date,.place {display: inline;}
+        .booktitle {font-style: italic;}
+    }
+
+    .bib-item .note {
+        &::before {
+            content: "Note: ";
+            font-weight: bold;
+        }
+        color: rgb(124, 124, 124);
+        font-size: 75%;
+        font-style: italic;
+        line-height: 100%;
+    }
+    .bib-item div.links {
+        //font-size: smaller;
+        // &::before {
+        //     content: "Links: ";
+        //     font-weight: bold;
+        // }
+        .ressource {
+            display: inline;
+            &:not(:last-child)::after {content: ";";}
+            &:last-child::after {content: ".";}
+            & a:not(:last-child)::after {content: ",";}
+        }
+    }
+    .bib-item div.bib {
+        //font-size: smaller;
+        // &::before {
+        //     content: "Links: ";
+        //     font-weight: bold;
+        // }
+        .ressource {
+            display: inline;
+            &:not(:last-child)::after {content: ";";}
+            &:last-child::after {content: ".";}
+            & a:not(:last-child)::after {content: ",";}
+        }
+    }
 }
 
 nav:not(.smallnav) {
@@ -152,6 +201,34 @@ nav.smallnav{
         }
         ul {display: none;}
     }
+}
+
+.multitabs { // https://medium.com/allenhwkim/how-to-build-tabs-only-with-css-844718d7de2f
+    input { display: none; }                /* hide radio buttons */
+    input + label { display: inline-block } /* show labels in line */
+    input ~ .tab { display: none }          /* hide contents */
+    input + label {             /* box with rounded corner */
+        border: 1px solid #999;
+        background: #EEE;
+        padding: 4px 12px;
+        border-radius: 4px 4px 0 0;
+        position: relative;
+        top: 1px;
+      }
+      input:checked + label {     /* white background for selected tab */
+        background: #FFF;
+        border-bottom: 1px solid transparent;
+      }
+      input ~ .tab {          /* grey line between tab and contents */
+        border-top: 1px solid #999;
+        padding: 12px;
+      }
+/* show contents only for selected tab */
+#tab1:checked ~ .tab.content1,
+#tab2:checked ~ .tab.content2,
+#tab3:checked ~ .tab.content3,
+#tab4:checked ~ .tab.content4,
+#tab5:checked ~ .tab.content5 { display: block; }
 }
 
 @media print, screen and (max-width: 1060px), screen and (max-height: 480px){
