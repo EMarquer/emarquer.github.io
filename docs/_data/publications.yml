@@ -11,7 +11,6 @@ pubs:
   #booktitle: "ICCBR"
   note: "submitted to Springer special Issue in Annals of Mathematics and Artificial Intelligence: Mathematical Foundations of analogical reasoning and applications"
   date: 2023
-  place: Nancy, France
   links:
   bib: 
     "@article{DBLP:conf/iccbr/MarquerADMC22,
@@ -114,6 +113,44 @@ pubs:
     publisher = {CEUR-WS.org},
     year      = {2022},
     url       = {https://ceur-ws.org/Vol-3174/paper3.pdf},
+  }"
+- title: Transferring Learned Models of Morphological Analogy.
+  category: Analogical proportions on embedding spaces
+  type:
+    - in proceedings
+    - workshop
+  author:
+    - E. Marquer
+    - P.-A. Murena
+    - M. Couceiro
+  booktitle: "ATA@ICCBR2022"
+  date: 2022
+  place: Nancy, France
+  links:
+    - ressource: paper
+      format: link
+      source: HAL
+      url: https://hal.inria.fr/hal-03783959
+    - ressource: paper
+      format: pdf
+      source: HAL
+      url: https://hal.inria.fr/hal-03783959/file/ATA_ICCBR_2022_Transferring_Analogy.pdf
+    - ressource: slides
+      format: pdf
+      url: https://github.com/pmonnin/ata2022-papers-slides/raw/main/slides/ATA_2022_emarquer.pdf
+  bib: 
+    "@inproceedings{marquer:hal-03783959,
+    TITLE = {{Transferring Learned Models of Morphological Analogy}},
+    AUTHOR = {Marquer, Esteban and Murena, Pierre-Alexandre and Couceiro, Miguel},
+    URL = {https://hal.inria.fr/hal-03783959},
+    BOOKTITLE = {{ATA@ICCBR2022 - Analogies: from Theory to Applications (ATA@ICCBR2022)}},
+    ADDRESS = {Nancy, France},
+    YEAR = {2022},
+    MONTH = Sep,
+    KEYWORDS = {Transfer ; Morphological analogies ; Analogy detection},
+    PDF = {https://hal.inria.fr/hal-03783959/file/ATA_ICCBR_2022_Transferring_Analogy.pdf},
+    HAL_ID = {hal-03783959},
+    HAL_VERSION = {v1},
   }"
 - title: Tackling Morphological Analogies Using Deep Learning - Extended Version.
   category: Analogical proportions on embedding spaces
