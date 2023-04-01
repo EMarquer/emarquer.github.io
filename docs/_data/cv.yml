@@ -39,13 +39,55 @@ training:
     note: with honors.
 
 teaching:
-  - position: Teaching assistant
+  - topic: Semantic Web
+    position: Teaching assistant
+    colaborators:
+        - Mathieu Daquin (main teacher)
+        - Jessica Colombel (teaching assistant)
+    place:
+      institute: IDMC, NLP & SC Master
+      university: Université de Lorraine
+      city: Nancy
+      country: France
+    public: 1st year
+    date:
+      start: 2022
+      end: 2023
+    duration: 26.5h
+    duration_detail: practicals of 2h
+    kind: practicals
+    description: RDF, turtle, SPARQL, ontology building
+    missions:
+      - giving practical sessions (alone) 
+  - topic: Software Project
+    position: Teaching assistant
+    colaborators:
+        - Miguel Couceiro (main teacher)
+    place:
+      institute: IDMC, NLP Master
+      university: Université de Lorraine
+      city: Nancy
+      country: France
+    public: 2nd year
+    date:
+      start: 2022
+      end: 2023
+    duration: 12h
+    kind: practicals
+    description: Project driven class, the student have to develop an innovative tool based on recent academic literature 
+    missions:
+      - supervision of up to 6 groups
+      - writing project topics
+      - evaluation (group presentation along the project, code production, end product, project defense)
+  - topic: Global Optimization
+    position: Teaching assistant
+    colaborators:
+        - Bernardeta Adis (main teacher)
     place:
       institute: Ecole des Mines
       university: Université de Lorraine
       city: Nancy
       country: France
-    topic: Global Optimization
     public: 2nd or 3rd year
     date:
       start: 2021
@@ -56,13 +98,16 @@ teaching:
     description: Pyomo library, definition of optimization problems, algorithms from Pure Random Search to Monotonic Basin Hopping
     missions:
       - giving practical sessions in a mixed theoretical/practical setup (together with the lead teacher)
-  - position: Teaching assistant
+  - topic: Data Mining
+    position: Teaching assistant
+    colaborators:
+        - Miguel Couceiro (main teacher)
+        - Guilherme Alves da Silva (teaching assistant)
     place:
       institute: IDMC, NLP Master
       university: Université de Lorraine
       city: Nancy
       country: France
-    topic: Data Mining
     public: 2nd year
     date:
       start: 2021
@@ -74,13 +119,17 @@ teaching:
     missions: 
       - design and grading of two projects
       - giving practical sessions (alone)
-  - position: Teaching assistant
+  - topic: Semantic Web
+    position: Teaching assistant
+    colaborators:
+        - Mathieu Daquin (main teacher)
+        - Guilherme Alves da Silva (teaching assistant)
+        - Lauring Hubert (teaching assistant)
     place:
-      institute: IDMC, NLP Master
+      institute: IDMC, NLP & SC Master
       university: Université de Lorraine
       city: Nancy
       country: France
-    topic: Semantic Web
     public: 1st year
     date:
       start: 2021
@@ -90,13 +139,16 @@ teaching:
     description: RDF, turtle, SPARQL, ontology building
     missions:
       - giving practical sessions (alone)
-  - position: Teaching assistant
+  - topic: Software Project
+    position: Teaching assistant
+    colaborators:
+        - Miguel Couceiro (main teacher)
+        - Maxime Amblard (teacher)
     place:
       institute: IDMC, NLP Master
       university: Université de Lorraine
       city: Nancy
       country: France
-    topic: Software Project
     public: 2nd year
     date:
       start: 2021
@@ -108,13 +160,15 @@ teaching:
       - supervision of up to 4 groups
       - writing project topics
       - evaluation (group presentation along the project, code production, end product, project defense)
-  - position: Teaching assistant
+  - topic: Semantic Web
+    position: Teaching assistant
+    colaborators:
+        - Miguel Couceiro (main teacher)
     place:
-      institute: IDMC, NLP Master
+      institute: IDMC, NLP & SC Master
       university: Université de Lorraine
       city: Nancy
       country: France
-    topic: Semantic Web
     public: 1st year
     date:
       start: 2020
@@ -125,13 +179,15 @@ teaching:
     missions:
       - writing and overseeing of the final exam
       - giving practical sessions (alone)
-  - position: Teaching assistant
+  - topic: Ontologies
+    position: Teaching assistant
+    colaborators:
+        - Miguel Couceiro (main teacher)
     place:
       institute: IDMC, NLP Master
       university: Université de Lorraine
       city: Nancy
       country: France
-    topic: Ontologies
     public: 2nd year
     date:
       start: 2020
@@ -143,7 +199,8 @@ teaching:
       - writing and giving practical sessions (alone)
       - writing and overseeing of the final exam
       - writing and overseeing end-of-session tests
-  - position: Tutor
+  - topic: <i>Python4NLP</i> summer school
+    position: Teaching assistant
     date: Aug. 2019
     duration: 1 week
     place:
@@ -151,7 +208,6 @@ teaching:
       university: Université de Lorraine
       city: Nancy
       country: France
-    topic: <i>Python4NLP</i> summer school
     description: tutoring during the practicals of the <i>Python4NLP</i> summer school
     missions: teaching the bases of Python programming for the preprocessing and analysis of text data and the application of standard NLP tools, machine learning and deep learning; certificate available
 
@@ -214,6 +270,143 @@ academia:
         - optimization of deep learning architectures
         - participation in the ITEA3-PAPUD European project
   
+tutoring:
+  - intern:
+    - position: Masters internship supervisor
+      date:
+        start: ??? 2020
+        end: ??? 2020
+      colaborators:
+        - Miguel Couceiro (co-supervisor)
+      place:
+        institute: LORIA, Orpailleur team
+        university: Université de Lorraine
+        city: Nancy
+        country: France
+      description:
+        objective: ???
+        missions:
+          - ???
+        outcomes:
+          - ???
+    - position: Masters internship supervisor
+      date:
+        start: May 2021
+        end: ??? 2021
+      colaborators:
+        - Miguel Couceiro (co-supervisor)
+        - Anahita Poulad (intern)
+      place:
+        institute: LORIA, Orpailleur team
+        university: Université de Lorraine
+        city: Nancy
+        country: France
+      description:
+        objective: ???
+        missions:
+          - ???
+        outcomes:
+          - ???
+    - position: Masters internship supervisor
+      date:
+        start: May 2021
+        end: Aout 2021
+      colaborators:
+        - Miguel Couceiro (co-supervisor)
+        - Safa Alsaidi (intern)
+      place:
+        institute: LORIA, Orpailleur team
+        university: Université de Lorraine
+        city: Nancy
+        country: France
+      description:
+        objective: ???
+        missions:
+          - ???
+        outcomes:
+          - ???
+
+  - student:
+    - position: Project supervisor
+      date:
+        start: 2020
+        end: 2021
+      scope: 1st year master at IDMC
+      colaborators:
+        - Miguel Couceiro (co-supervisor)
+        - Safa Alsaidi (student)
+        - Amandine Decker (student)
+        - Stephanie Monteiro (student)
+      place:
+        institute: LORIA, Orpailleur team
+        university: Université de Lorraine
+        city: Nancy
+        country: France
+      description:
+        topic: solving morphological analogies
+        objective: ???
+        missions:
+          - ???
+        outcomes:
+          - ???
+    - position: Project supervisor
+      date:
+        start: 2020
+        end: 2021
+      scope: 1st year master at IDMC
+      colaborators:
+        - Miguel Couceiro (co-supervisor)
+        - Safa Alsaidi (student)
+        - Amandine Decker (student)
+        - Puthineath Lay (student)
+      place:
+        institute: LORIA, Orpailleur team
+        university: Université de Lorraine
+        city: Nancy
+        country: France
+      description:
+        topic: ???
+        objective: ???
+        missions:
+          - ???
+        outcomes:
+          - ???
+    - position: Project supervisor
+      date:
+        start: 2020
+        end: 2021
+      scope: 1st year master at IDMC
+      colaborators:
+        - Miguel Couceiro (co-supervisor)
+        - Tuan-Anh Vo (student)
+        - Rameeze  (student)
+        - Fatima Habib (student)
+        - Asmaa Demny (student)
+        - Min-Huong Ngo (student)
+      place:
+        institute: LORIA, Orpailleur team
+        university: Université de Lorraine
+        city: Nancy
+        country: France
+      description:
+        topic: combining embeddings
+  
+management:
+  - description: ATA@ICCBR 2023
+    colaborators:
+    place:
+    date: 2023
+  - description: ATA@ICCBR 2022
+    colaborators:
+    place:
+    date: 2022
+  - description: Malotec seminar co-management and co-chair
+    colaborators:
+    place:
+    date:
+      start: 2021
+      #end: 2023
+
 other:
   - position: Transcriber
     date:
