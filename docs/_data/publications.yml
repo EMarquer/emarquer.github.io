@@ -4,6 +4,7 @@ venuetypes:
 - Special issue article
 - Conference
 - Workshop
+- Dataset
 - Other
 categories:
 - Analogical proportions on embedding spaces
@@ -28,6 +29,43 @@ pubs:
                    Miguel Couceiro},\n
       title     = {Solving morphological analogies: from retrieval to generation},\n
     }"
+- title: An analogy based approach for solving target sense verification.
+  category: Analogical proportions on embedding spaces
+  venuetype: Conference
+  type:
+    - in proceedings
+    - conference
+  author:
+    - G. Zervakis
+    - E. Vincent
+    - M. Couceiro
+    - M. Schoenauer
+    - E. Marquer
+  booktitle: "NLPIR"
+  date: 2022
+  place: Bangkok, Thailand
+  links:
+    - ressource: paper
+      links:
+      - format: page
+        source: HAL
+        url: https://hal.inria.fr/hal-03792071
+      - format: PDF
+        source: HAL
+        url: https://hal.inria.fr/hal-03792071/file/zervakis_NLPIR22.pdf
+  bib: "@inproceedings{zervakis:hal-03792071,
+    TITLE = {{An analogy based approach for solving target sense verification}},
+    AUTHOR = {Zervakis, Georgios and Vincent, Emmanuel and Couceiro, Miguel and Schoenauer, Marc and Marquer, Esteban},
+    URL = {https://hal.inria.fr/hal-03792071},
+    BOOKTITLE = {{NLPIR 2022 - 6th International Conference on Natural Language Processing and Information Retrieval}},
+    ADDRESS = {Bangkok, Thailand},
+    YEAR = {2022},
+    MONTH = Dec,
+    KEYWORDS = {target sense verification ; analogical reasoning ; BERT},
+    PDF = {https://hal.inria.fr/hal-03792071/file/zervakis_NLPIR22.pdf},
+    HAL_ID = {hal-03792071},
+    HAL_VERSION = {v1},
+  }"
 - title: A Deep Learning Approach to Solving Morphological Analogies.
   category: Analogical proportions on embedding spaces
   venuetype: Conference
@@ -166,7 +204,7 @@ pubs:
   }"
 - title: Tackling Morphological Analogies Using Deep Learning - Extended Version.
   category: Analogical proportions on embedding spaces
-  venuetype: Conference
+  venuetype: Other
   type:
     - preprint
     - unpublished
@@ -394,3 +432,26 @@ pubs:
       - format: PDF
         source: arXiv
         url: https://arxiv.org/pdf/2004.08371.pdf
+
+- title: Siganalogies - morphological analogies from Sigmorphon 2016 and 2019
+  category: Analogical proportions on embedding spaces
+  venuetype: Dataset
+  type:
+    - dataset
+  author:
+    - E. Marquer
+    - M. Couceiro
+    - S. Alsaidi
+    - A. Decker
+  date: 2022
+  bib:
+    "@data{MLCFIE_2022,
+    author = {Marquer, Esteban and Couceiro, Miguel and Safa Alsaidi and Amandine Decker},
+    publisher = {Université de Lorraine},
+    title = {{Siganalogies - morphological analogies from Sigmorphon 2016 and 2019}},
+    year = {2022},
+    version = {V1},
+    doi = {10.12763/MLCFIE},
+    url = {https://doi.org/10.12763/MLCFIE}
+    }
+    "
