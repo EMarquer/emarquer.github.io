@@ -36,7 +36,7 @@ A key advantage of AR is the ease of interpretation: the mechanism itself is int
   {% assign sortedPubs = site.data.publications.pubs | sort: "date" | reverse %}
   {% assign tags = sortedPubs | map: "date" | uniq %}
   {% for tag in tags %}
-  <h3>{{ tag }}</h3>
+  <h4>{{ tag }}</h4>
   <ul class="bib-items">
 
   <!-- {% for pub in site.data.publications.pubs %}
@@ -59,7 +59,7 @@ A key advantage of AR is the ease of interpretation: the mechanism itself is int
   {% assign tags = site.data.publications.venuetypes %}
   {% for tag in tags %}
   {% if tagsPresent contains tag %}
-  <h3>{{ tag }}</h3>
+  <h4>{{ tag }}</h4>
   <ul class="bib-items">
 
   <!-- {% for pub in site.data.publications.pubs %}
@@ -84,7 +84,7 @@ A key advantage of AR is the ease of interpretation: the mechanism itself is int
   {% for tag in tags %}
   {% if tagsPresent contains tag %}
   {% assign tags = venuetypes %}
-    <h3>{{ tag }}</h3>
+    <h4>{{ tag }}</h4>
     <ul class="bib-items">
 
     <!-- make other at the end -->
