@@ -21,7 +21,7 @@ pubs:
     - E. Marquer
     - M. Couceiro
   #booktitle: "ICCBR"
-  note: "submitted to Springer special Issue in Annals of Mathematics and Artificial Intelligence: Mathematical Foundations of analogical reasoning and applications"
+  note: "submitted to Springer special Issue in Annals of Mathematics and Artificial Intelligence: Mathematical Foundations of Analogical Reasoning and Applications"
   date: 2023
   #links:
   bib: "@article{MarquerAMAI22,\n
@@ -172,7 +172,7 @@ pubs:
     - E. Marquer
     - P.-A. Murena
     - M. Couceiro
-  booktitle: "ATA@ICCBR2022"
+  booktitle: "ATA@ICCBR"
   date: 2022
   place: Nancy, France
   links:
@@ -381,10 +381,11 @@ pubs:
   venuetype: Other
   type:
     - masters thesis
+  note: masters thesis
   author:
     - E. Marquer
   date: 2020
-  place: Santiago de Compostela, Spain
+  place: Université de Lorraine, France
   links:
     - ressource: masters thesis
       links:

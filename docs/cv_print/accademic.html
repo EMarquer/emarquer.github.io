@@ -88,6 +88,7 @@ A key advantage of AR is the ease of interpretation: the mechanism itself is int
   
 <h2><i class="fas fa-fw fa-newspaper"></i> Publications</h2>
 
+{% comment %}
 <ul class="cv-bib">
   {% for pub in site.data.publications.pubs %}
     <li>
@@ -95,5 +96,32 @@ A key advantage of AR is the ease of interpretation: the mechanism itself is int
     </li>
   {% endfor %}
   </ul>
+  {% endcomment %}
+
+
+
+  {% assign sortedPubs = site.data.publications.pubs | sort: "date" | reverse %}
+  {% assign tagsPresent = sortedPubs | map: "venuetype" | uniq %}
+  {% assign tags = site.data.publications.venuetypes %}
+  {% for tag in tags %}
+  {% if tagsPresent contains tag %}
+  <h4>{{ tag }}</h4>
+  <ul class="cv-bib bib-items">
+
+  <!-- {% for pub in site.data.publications.pubs %}
+  {% endfor %} -->
+  {% for pub in sortedPubs %}
+    {% if pub.venuetype == tag %}
+    <li class="bib-item">
+    {% include cv_print/pub.html pub=pub %}
+    </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+  {% endif %}
+  {% endfor %}
+
+
+
 
 </div>
