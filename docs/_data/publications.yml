@@ -23,11 +23,23 @@ pubs:
   #booktitle: "ICCBR"
   note: "submitted to Springer special Issue in Annals of Mathematics and Artificial Intelligence: Mathematical Foundations of Analogical Reasoning and Applications"
   date: 2023
-  #links:
+  links:
+    - ressource: paper
+      links:
+      - format: page
+        source: arXiv
+        url: https://arxiv.org/abs/2303.18062
+      - format: PDF
+        source: arXiv
+        url: https://arxiv.org/pdf/2303.18062.pdf
   bib: "@article{MarquerAMAI22,\n
       author    = {Esteban Marquer and\n
                    Miguel Couceiro},\n
       title     = {Solving morphological analogies: from retrieval to generation},\n
+      eprint={2303.18062},\n
+      archivePrefix={arXiv},\n
+      url       = {https://arxiv.org/abs/2303.18062},\n
+      pdf       = {https://arxiv.org/pdf/2303.18062.pdf},\n
     }"
 - title: An analogy based approach for solving target sense verification.
   category: Analogical proportions on embedding spaces
