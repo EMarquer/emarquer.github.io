@@ -8,10 +8,58 @@ venuetypes:
 - Other
 categories:
 - Analogical proportions on embedding spaces
+- Analogical proportions and Case Based Reasoning
 - Embedding spaces for Formal Concept Analysis
 - Combination of embedding spaces
 - Other topics
 pubs:
+- title: "Less is Better: An Energy-Based Approach to Case Base Competence."
+  category: Analogical proportions and Case Based Reasoning
+  venuetype: Workshop
+  type:
+    - unpublished
+  author:
+    - E. Marquer
+    - F. Barda
+    - M.-J. Lesot
+    - M. Couceiro
+    - D. Leake
+  booktitle: "ATA@ICCBR"
+  note: "to appear in ATA@ICCBR"
+  date: 2023
+  # links:
+  #   - ressource: paper
+  #     links:
+  #     - format: page
+  #       source: arXiv
+  #       url: https://arxiv.org/abs/2303.18062
+  #     - format: PDF
+  #       source: arXiv
+  #       url: https://arxiv.org/pdf/2303.18062.pdf
+  #bib: ""
+- title: "Some Perspectives on Similarity Learning for Case-Based Reasoning and Analogical Transfer."
+  category: Analogical proportions and Case Based Reasoning
+  venuetype: Workshop
+  type:
+    - unpublished
+  author:
+    - F. Barda
+    - M.-J. Lesot
+    - E. Marquer
+    - M. Couceiro
+  booktitle: "IARML@IJCAI"
+  note: "to appear in IARML@IJCAI"
+  date: 2023
+  # links:
+  #   - ressource: paper
+  #     links:
+  #     - format: page
+  #       source: arXiv
+  #       url: https://arxiv.org/abs/2303.18062
+  #     - format: PDF
+  #       source: arXiv
+  #       url: https://arxiv.org/pdf/2303.18062.pdf
+  #bib: ""
 - title: "Solving Morphological Analogies: from Retrieval to Generation."
   category: Analogical proportions on embedding spaces
   venuetype: Special issue article
