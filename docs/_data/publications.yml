@@ -17,7 +17,8 @@ pubs:
   category: Analogical proportions and Case Based Reasoning
   venuetype: Workshop
   type:
-    - unpublished
+    - in proceedings
+    - workshop
   author:
     - E. Marquer
     - F. Barda
@@ -25,41 +26,74 @@ pubs:
     - M. Couceiro
     - D. Leake
   booktitle: "ATA@ICCBR"
-  note: "to appear in ATA@ICCBR"
+  #note: "to appear in ATA@ICCBR"
   date: 2023
-  # links:
-  #   - ressource: paper
-  #     links:
-  #     - format: page
-  #       source: arXiv
-  #       url: https://arxiv.org/abs/2303.18062
-  #     - format: PDF
-  #       source: arXiv
-  #       url: https://arxiv.org/pdf/2303.18062.pdf
-  #bib: ""
+  place: Aberdeen, Scotland, UK
+  links:
+    - ressource: paper
+      links:
+      - format: PDF
+        source: arXiv
+        url: https://ceur-ws.org/Vol-3438/paper\_03.pdf
+  bib: "@inproceedings{DBLP:conf/iccbr/MarquerBLCL23,\n
+  author       = {Esteban Marquer and\n
+                  Fadi Badra and\n
+                  Marie{-}Jeanne Lesot and\n
+                  Miguel Couceiro and\n
+                  David Leake},\n
+  editor       = {Lukas Malburg and\n
+                  Deepika Verma},\n
+  title        = {Less is Better: An Energy-Based Approach to Case Base Competence},\n
+  booktitle    = {Proceedings of the Workshops at the 31st International Conference\n
+                  on Case-Based Reasoning (ICCBR-WS} 2023),\n
+  series       = {{CEUR} Workshop Proceedings},\n
+  volume       = {3438},\n
+  pages        = {27--42},\n
+  publisher    = {CEUR-WS.org},\n
+  year         = {2023},\n
+  url          = {https://ceur-ws.org/Vol-3438/paper\_03.pdf},\n
+}"
 - title: "Some Perspectives on Similarity Learning for Case-Based Reasoning and Analogical Transfer."
   category: Analogical proportions and Case Based Reasoning
   venuetype: Workshop
   type:
-    - unpublished
+    - in proceedings
+    - workshop
   author:
     - F. Barda
     - M.-J. Lesot
     - E. Marquer
     - M. Couceiro
   booktitle: "IARML@IJCAI"
-  note: "to appear in IARML@IJCAI"
+  # note: "to appear in IARML@IJCAI"
   date: 2023
-  # links:
-  #   - ressource: paper
-  #     links:
-  #     - format: page
-  #       source: arXiv
-  #       url: https://arxiv.org/abs/2303.18062
-  #     - format: PDF
-  #       source: arXiv
-  #       url: https://arxiv.org/pdf/2303.18062.pdf
-  #bib: ""
+  place: Macau, China
+  links:
+    - ressource: paper
+      links:
+      - format: PDF
+        source: arXiv
+        url: https://ceur-ws.org/Vol-3492/paper2.pdf
+  bib: "@inproceedings{DBLP:conf/ijcai/BadraLMC23,\n
+  author       = {Fadi Badra and\n
+                  Marie{-}Jeanne Lesot and\n
+                  Esteban Marquer and\n
+                  Miguel Couceiro},\n
+  editor       = {Miguel Couceiro and\n
+                  Stergos D. Afantenos and\n
+                  Pierre{-}Alexandre Murena},\n
+  title        = {Some Perspectives on Similarity Learning for Case-Based Reasoning\n
+                  and Analogical Transfer},\n
+  booktitle    = {Proceedings of the Workshop on the Interactions between Analogical\n
+                  Reasoning and Machine Learning co-located with International Joint\n
+                  Conference on Artificial Intelligence {(IJCAI})},\n
+  series       = {{CEUR} Workshop Proceedings},\n
+  volume       = {3492},\n
+  pages        = {16--28},\n
+  publisher    = {CEUR-WS.org},\n
+  year         = {2023},\n
+  url          = {https://ceur-ws.org/Vol-3492/paper2.pdf},\n
+}"
 - title: "Solving Morphological Analogies: from Retrieval to Generation."
   category: Analogical proportions on embedding spaces
   venuetype: Special issue article
@@ -113,18 +147,18 @@ pubs:
       - format: PDF
         source: HAL
         url: https://hal.inria.fr/hal-03792071/file/zervakis_NLPIR22.pdf
-  bib: "@inproceedings{zervakis:hal-03792071,
-    TITLE = {{An analogy based approach for solving target sense verification}},
-    AUTHOR = {Zervakis, Georgios and Vincent, Emmanuel and Couceiro, Miguel and Schoenauer, Marc and Marquer, Esteban},
-    URL = {https://hal.inria.fr/hal-03792071},
-    BOOKTITLE = {{NLPIR 2022 - 6th International Conference on Natural Language Processing and Information Retrieval}},
-    ADDRESS = {Bangkok, Thailand},
-    YEAR = {2022},
-    MONTH = Dec,
-    KEYWORDS = {target sense verification ; analogical reasoning ; BERT},
-    PDF = {https://hal.inria.fr/hal-03792071/file/zervakis_NLPIR22.pdf},
-    HAL_ID = {hal-03792071},
-    HAL_VERSION = {v1},
+  bib: "@inproceedings{zervakis:hal-03792071,\n
+    TITLE = {{An analogy based approach for solving target sense verification}},\n
+    AUTHOR = {Zervakis, Georgios and Vincent, Emmanuel and Couceiro, Miguel and Schoenauer, Marc and Marquer, Esteban},\n
+    URL = {https://hal.inria.fr/hal-03792071},\n
+    BOOKTITLE = {{NLPIR 2022 - 6th International Conference on Natural Language Processing and Information Retrieval}},\n
+    ADDRESS = {Bangkok, Thailand},\n
+    YEAR = {2022},\n
+    MONTH = Dec,\n
+    KEYWORDS = {target sense verification ; analogical reasoning ; BERT},\n
+    PDF = {https://hal.inria.fr/hal-03792071/file/zervakis_NLPIR22.pdf},\n
+    HAL_ID = {hal-03792071},\n
+    HAL_VERSION = {v1},\n
   }"
 - title: A Deep Learning Approach to Solving Morphological Analogies.
   category: Analogical proportions on embedding spaces
@@ -191,7 +225,7 @@ pubs:
     - M. Couceiro
   booktitle: "IARML@IJAI-ECAI"
   date: 2022
-  #place: 
+  place: Vienna, Austria
   links:
     - ressource: paper
       links:
@@ -214,7 +248,7 @@ pubs:
     booktitle = {Proceedings of the Workshop on the Interactions between Analogical\n
                 Reasoning and Machine Learning (International Joint Conference on\n
                 Artificial Intelligence - European Conference on Artificial Intelligence\n
-                {(IJAI-ECAI} 2022)), Vienna, Austria, July 23, 2022},\n
+                {(IJAI-ECAI}))},\n
     series    = {{CEUR} Workshop Proceedings},\n
     volume    = {3174},\n
     pages     = {29--39},\n
@@ -222,6 +256,51 @@ pubs:
     year      = {2022},\n
     url       = {https://ceur-ws.org/Vol-3174/paper3.pdf},\n
   }"
+
+- title: An analogy based framework for patient-stay identification in healthcare.
+  category: Analogical proportions on embedding spaces
+  venuetype: Workshop
+  type:
+    - in proceedings
+    - workshop
+  author:
+    - S. Alsaidi
+    - M. Couceiro
+    - E. Marquer
+    - S. Quennelle
+    - A. Burgun
+    - N. Garcelon
+    - A. Coulet
+  booktitle: "ATA@ICCBR"
+  date: 2022
+  place: Nancy, France
+  links:
+    - ressource: paper
+      links:
+      - format: PDF
+        source: CEUR-WS
+        url: https://ceur-ws.org/Vol-3389/ICCBR\_2022\_Workshop\_paper\_76.pdf
+  bib: 
+    "@inproceedings{DBLP:conf/iccbr/AlsaidiCMQBGC22,\n
+  author       = {Safa Alsaidi and\n
+                  Miguel Couceiro and\n
+                  Esteban Marquer and\n
+                  Sophie Quennelle and\n
+                  Anita Burgun and\n
+                  Nicolas Garcelon and\n
+                  Adrien Coulet},\n
+  editor       = {Pascal Reuss and\n
+                  Jakob Michael Sch{\"{o}}nborn},\n
+  title        = {An analogy based framework for patient-stay identification in healthcare},\n
+  booktitle    = {Workshop Proceedings of the 30th International Conferece on Case-Based\n
+                  Reasoning (ICCBR-WS)},\n
+  series       = {{CEUR} Workshop Proceedings},\n
+  volume       = {3389},\n
+  pages        = {68--80},\n
+  publisher    = {CEUR-WS.org},\n
+  year         = {2022},\n
+  url          = {https://ceur-ws.org/Vol-3389/ICCBR\_2022\_Workshop\_paper\_76.pdf},\n
+}"
 - title: Transferring Learned Models of Morphological Analogy.
   category: Analogical proportions on embedding spaces
   venuetype: Workshop
@@ -506,13 +585,13 @@ pubs:
     - A. Decker
   date: 2022
   bib:
-    "@data{MLCFIE_2022,
-    author = {Marquer, Esteban and Couceiro, Miguel and Safa Alsaidi and Amandine Decker},
-    publisher = {Université de Lorraine},
-    title = {{Siganalogies - morphological analogies from Sigmorphon 2016 and 2019}},
-    year = {2022},
-    version = {V1},
-    doi = {10.12763/MLCFIE},
-    url = {https://doi.org/10.12763/MLCFIE}
+    "@data{MLCFIE_2022,\n
+    author = {Marquer, Esteban and Couceiro, Miguel and Safa Alsaidi and Amandine Decker},\n
+    publisher = {Université de Lorraine},\n
+    title = {{Siganalogies - morphological analogies from Sigmorphon 2016 and 2019}},\n
+    year = {2022},\n
+    version = {V1},\n
+    doi = {10.12763/MLCFIE},\n
+    url = {https://doi.org/10.12763/MLCFIE}\n
     }
     "

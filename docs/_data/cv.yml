@@ -39,6 +39,47 @@ training:
     note: with honors.
 
 teaching:
+  - topic: Algorithms for Graphs and Number Representation
+    position: Teaching assistant
+    colaborators:
+        - Bernardetta Addis (main teacher)
+        - Pierre Ludmann (teaching assistant)
+        - Damien Jamet (teaching assistant)
+    place:
+      institute: Polytech Nancy, PEIP
+      university: Université de Lorraine
+      city: Nancy
+      country: France
+    public: 1st year of preparatory cycle
+    date:
+      start: 2023
+      end: 2024
+    #duration: h
+    duration_detail: "??x2h, 2 groups"
+    kind: theoretical and practicals
+    description: integer and floating point representation and computations
+    missions:
+      - giving practical sessions
+  - topic: Data Base Design
+    position: Main teacher
+    colaborators:
+        - Pierre Ludmann (teaching assistant)
+    place:
+      institute: Polytech Nancy, IA2R and EMME specialty
+      university: Université de Lorraine
+      city: Nancy
+      country: France
+    public: 1st year of engineering cycle
+    date:
+      start: 2023
+      end: 2024
+    #duration: h
+    duration_detail: 3x2h (theoretical), 6x2h (practicals), 5 groups each
+    kind: theoretical and practicals
+    description: Entity-Relationship model, relational model, SQLite, introduction to knowledge bases
+    missions:
+      - creation of class material from scratch
+      - English anf French public, with corresponding class material
   - topic: Semantic Web
     position: Teaching assistant
     colaborators:
@@ -405,7 +446,7 @@ management:
     place:
     date:
       start: 2021
-      #end: 2023
+      end: 2023
 
 other:
   - position: Transcriber
