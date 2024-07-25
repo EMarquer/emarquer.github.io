@@ -4,12 +4,13 @@ training:
   # - title: Ph.D.
   #   date:
   #     start: Oct. 2020
+  #     end: Jun. 2024
   #   place:
   #     institute: LORIA, Orpailleur team
   #     university: Université de Lorraine
   #     city: Nancy
   #     country: France
-  #   description: study of proportional analogy and its applications in machine learning and in particular deep learning
+  #   description: study of analogical proportions and their applications in machine learning and in particular deep learning
   - title: Master in Natural Language Processing (NLP)
     date:
       start: Sep. 2018
@@ -54,10 +55,10 @@ teaching:
     date:
       start: 2023
       end: 2024
-    #duration: h
-    duration_detail: "??x2h, 2 groups"
-    kind: theoretical and practicals
-    description: integer and floating point representation and computations
+    duration: 24h
+    duration_detail: "6x2h, 2 groups"
+    kind: practicals
+    description: integer and floating point representation and computations, graph representation and traversal
     missions:
       - giving practical sessions
   - topic: Data Base Design
@@ -73,13 +74,13 @@ teaching:
     date:
       start: 2023
       end: 2024
-    #duration: h
+    duration: ~80h
     duration_detail: 3x2h (theoretical), 6x2h (practicals), 5 groups each
     kind: theoretical and practicals
     description: Entity-Relationship model, relational model, SQLite, introduction to knowledge bases
     missions:
       - creation of class material from scratch
-      - English anf French public, with corresponding class material
+      - English and French public, with corresponding class material
   - topic: Semantic Web
     position: Teaching assistant
     colaborators:
@@ -256,13 +257,14 @@ academia:
   - position: Ph.D.
     date:
       start: Oct. 2020
+      end: June 2024
     place:
       institute: LORIA, Orpailleur team
       university: Université de Lorraine
       city: Nancy
       country: France
     description:
-      objective: study of proportional analogy and its applications in machine learning and in particular deep learning
+      objective: study of analogical proportions and their applications in machine learning and in particular deep learning
   - position: End of master research internship
     date:
       start: Feb. 2020
@@ -313,6 +315,30 @@ academia:
   
 tutoring:
   intern:
+    - position: 5th year internship supervisor
+      date: 2024
+      place:
+        institute: Polytech Nancy
+        university: Université de Lorraine
+        city: Nancy
+        country: France
+      description:
+        objective: academic supervisor of 6 students in their final year, 4 month internship
+        missions:
+          - supervision, meeting with the company supervisor, defense and report evaluation
+    - position: 4th year internship supervisor
+      date: 2024
+      colaborators:
+        - Miguel Couceiro (co-supervisor)
+      place:
+        institute: Polytech Nancy
+        university: Université de Lorraine
+        city: Nancy
+        country: France
+      description:
+        objective: academic supervisor of a student in their 4th (of 5) year 
+        missions:
+          - report evaluation
     - position: Masters internship supervisor
       date:
         start: ??? 2020
@@ -492,7 +518,7 @@ languages:
   #   std_level: A1
 
 # level_meilir_page_jones: Meilir Pages-Jones levels
-# level_dreyfus: in parenteses, Five Dreyfus Model Stages < recommended for display)
+# level_dreyfus: in parentheses, Five Dreyfus Model Stages < recommended for display)
 # level_5: 0 to 5, 6 for expert (custom scale)
 # - Innocent
 # - Exposed
@@ -502,7 +528,7 @@ languages:
 # - 5: Master (proficient)
 # - 6: Researcher (expert)
 dev:
-  - category: Programing
+  - category: Programming
     languages:
     - language: Python
       #certifications: TBD
@@ -531,14 +557,26 @@ dev:
       libraries:
         - Unity
   - category: Web
-    level_meilir_page_jones: practitioner
-    level_dreyfus: advanced beginner
-    level_5: 2
+    # level_meilir_page_jones: practitioner
+    # level_dreyfus: advanced beginner
+    # level_5: 2
     languages:
     - language: HTML
+      level_meilir_page_jones: practitioner
+      level_dreyfus: advanced beginner
+      level_5: 2
     - language: CSS
+      level_meilir_page_jones: practitioner
+      level_dreyfus: advanced beginner
+      level_5: 2
     - language: JS
+      level_meilir_page_jones: practitioner
+      level_dreyfus: advanced beginner
+      level_5: 2
     - language: Jekyll
+      level_meilir_page_jones: practitioner
+      level_dreyfus: advanced beginner
+      level_5: 2
   - category: Writing
     languages:
     - language: Latex
@@ -553,6 +591,6 @@ dev:
       level_dreyfus: competent
       level_5: 3
     - language: Windows
-      level_meilir_page_jones: journeyman
-      level_dreyfus: competent
-      level_5: 3
+      level_meilir_page_jones: practitioner
+      level_dreyfus: advanced beginner
+      level_5: 2

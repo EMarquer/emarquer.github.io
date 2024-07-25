@@ -102,9 +102,8 @@ pubs:
   author:
     - E. Marquer
     - M. Couceiro
-  #booktitle: "ICCBR"
-  note: "submitted to Springer special Issue in Annals of Mathematics and Artificial Intelligence: Mathematical Foundations of Analogical Reasoning and Applications"
-  date: 2023
+  booktitle: "Springer special Issue in Annals of Mathematics and Artificial Intelligence: Mathematical Foundations of Analogical Reasoning and Applications"
+  date: 2024
   links:
     - ressource: paper
       links:
@@ -118,6 +117,9 @@ pubs:
       author    = {Esteban Marquer and\n
                    Miguel Couceiro},\n
       title     = {Solving morphological analogies: from retrieval to generation},\n
+      year      = {2024},\n
+      journal   = {AMAI:MFARA},\n
+      publisher     = {Springer},\n
       eprint={2303.18062},\n
       archivePrefix={arXiv},\n
       url       = {https://arxiv.org/abs/2303.18062},\n
@@ -344,6 +346,7 @@ pubs:
 - title: Tackling Morphological Analogies Using Deep Learning - Extended Version.
   category: Analogical proportions on embedding spaces
   venuetype: Other
+  note: preprint
   type:
     - preprint
     - unpublished

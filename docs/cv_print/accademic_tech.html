@@ -10,9 +10,16 @@ print: compact
 <h1>Esteban Marquer - Ph.D.</h1>
 <ul class="cv-contact">
 <li><i class="fas fa-fw fa-at"></i> {{ site.email }}</li>
+<!-- <li><i class="fas fa-fw fa-at"></i> e.marquer1@gmail.com</li> -->
 <li><i class="fas fa-fw fa-phone"></i> +33 6 78 09 35 84</li>
 <li><i class="fab fa-fw fa-github"></i> {{ site.github_username }}</li>
 <li><i class="fab fa-fw fa-gitlab"></i> {{ site.gitlab_username }}</li>
+</ul><!-- 
+ --><ul class="cv-contact">
+<!-- language skills -->
+<li><i class="fas fa-fw fa-comments"></i> Languages:<ul class="cv-skill-language">{% for lang in site.data.cv.languages %}
+  <li>{{ lang.name }} ({{ lang.level }}, {{ lang.std_level }})<!-- 
+   --></li>{% endfor %}</ul></li>
 </ul>
 
 <h2><i class="fas fa-fw fa-scroll"></i> Research objective</h2>
@@ -88,6 +95,33 @@ A key advantage of AR is the ease of interpretation: the mechanism itself is int
 
 <div class="page">
   
+
+  <h2><i class="fas fa-fw fa-cogs"></i> Technical skills (expertise levels: <a href="https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition">Five Dreyfus Model Stages</a>)</h2>
+  <ul class="cv-skill">
+    <!-- language skills -->
+    <!-- <li><div class="cv-title">Languages:</div><ul class="cv-skill-language">{% for lang in site.data.cv.languages %}
+    <li>{{ lang.name }} ({{ lang.level }}, {{ lang.std_level }})</li>{% endfor %}</ul></li> -->
+     <!-- tech skill -->
+    {% for other in site.data.cv.dev %}
+      <li>
+      <div class="cv-title">{{ other.category }}<!-- 
+      -->{% if other.level_dreyfus %} ({{ other.level_dreyfus }}){% endif %}<!-- 
+      -->:</div> 
+      <ul class="cv-skill-language">
+      {% for language in  other.languages %}
+      <li>{{ language.language }}<!-- 
+       -->{% if language.libraries or language.level_dreyfus %} (<!-- 
+       -->{% if language.level_dreyfus %}{{ language.level_dreyfus }}{% endif %}<!-- 
+       -->{% if language.libraries and language.level_dreyfus %}, {% endif %}<!-- 
+       -->{% if language.libraries %}<ul class="cv-skill-lib">{% for lib in  language.libraries %}<li>{{ lib }}</li>{% endfor %}</ul>{% endif %}<!-- 
+       -->){% endif %}</li><!-- 
+       -->{% endfor %}</ul>
+      <!-- {% include cv_print/skill.html description=other.description.missions note=other.description.objective note_first=true
+        print=page.print %} -->
+      </li>
+    {% endfor %}
+    </ul>
+
 <h2><i class="fas fa-fw fa-newspaper"></i> Publications</h2>
 
 {% comment %}
@@ -122,8 +156,6 @@ A key advantage of AR is the ease of interpretation: the mechanism itself is int
   </ul>
   {% endif %}
   {% endfor %}
-
-
 
 
 </div>

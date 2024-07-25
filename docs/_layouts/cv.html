@@ -2,7 +2,7 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
 
-    <title>{{ site.github.owner_name }} | {{ site.data.cv.current_position }} | {{ site.email }}</title>
+    <title>{{ site.username }} | {{ site.data.cv.current_position }} | {{ site.email }}</title>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,7 +23,7 @@
         {{ content }}
       </section>
       <footer>
-        <p><i>Curiculum Vitae</i> of <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        <p><i>Curiculum Vitae</i> of <a href="{{ site.homepage_url }}">{{ site.username }}</a></p>
         <p>Generated: {{ site.time | date: '%Y-%m-%d' }}</p>
       </footer>
     </div>
