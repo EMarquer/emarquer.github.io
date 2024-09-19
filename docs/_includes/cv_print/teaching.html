@@ -1,11 +1,14 @@
 {% if include.print=='compact' %}
-{% include cv_print/date.html date=include.teaching.date %} ({{ include.teaching.duration }}{% if include.teaching.kind %} of
-{{ include.teaching.kind }}{% endif %})
+{% include cv_print/date.html date=include.teaching.date %} {% if include.teaching.duration_detail and include.duration_detail %}({{ include.teaching.duration_detail }}; total {{ include.teaching.duration }}){% else %}({{ include.teaching.duration }}{% if include.teaching.kind %} of {{ include.teaching.kind }}{% endif %}){% endif %}
 <div class="cv-title">{{ include.teaching.topic }}</div> for {{ include.teaching.public }} at {% include cv/place.html
 place=include.teaching.place %} ({{ include.teaching.position }})
 {% else %}
 {% include cv_print/date.html date=include.teaching.date %}
+{% if include.teaching.duration_detail and include.duration_detail %}
+({{ include.teaching.duration_detail }}; total {{ include.teaching.duration }})
+{% else %}
 ({{ include.teaching.duration }}{% if include.teaching.kind %} of {{ include.teaching.kind }}{% endif %})
+{% endif %}
 <div class="cv-title">{{ include.teaching.topic }}</div> for {{ include.teaching.public }} at {% include cv/place.html
 place=include.teaching.place %} ({{ include.teaching.position }})
 <br />
