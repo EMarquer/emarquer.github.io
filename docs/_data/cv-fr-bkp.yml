@@ -1,0 +1,576 @@
+academia:
+- date:
+    end: Juin 2024
+    start: Oct. 2020
+  description:
+    objective: Étude des proportions analogiques et de leurs applications dans l'apprentissage
+      automatique et en particulier l'apprentissage profond
+  place:
+    city: Nancy
+    country: France
+    institute: Loria, équipe Orpailleur
+    university: Université de Lorraine
+  position: Doctorat
+- date:
+    end: Juil. 2020
+    start: Fév. 2020
+  description:
+    missions:
+    - Concevoir une architecture autoencoder pour les treillis de concepts
+    - Étendre l'architecture pour prendre en compte le contexte formel
+    objective: Génération du treillis de concepts à partir de contexte formel à l'aide
+      d'un apprentissage profond
+  place:
+    city: Nancy
+    country: France
+    institute: Loria, équipe Orpailleur
+    university: Université de Lorraine
+  position: Stage de recherche de fin de master
+- date:
+    end: Août 2019
+    start: Juin 2019
+  description:
+    missions:
+    - Conception et application d'un processus d'évaluation pour les outils de transcription
+    - Conception d'un guide de transcription
+    - Enregistrement des données audio
+    - Initiation à la sémantique formelle
+    objective: Travail préliminaire pour la transcription du corpus DinG (<i>Dialogues in Games</i>)
+  place:
+    city: Nancy
+    country: France
+    institute: Loria, équipe Semagramme
+    university: Université de Lorraine
+  position: Stage de recherche facultatif de master 1
+- date:
+    end: Juil. 2018
+    start: Avr. 2018
+  description:
+    missions:
+    - Découverte de l'apprentissage profond et de PyTorch
+    - Conception d'une architecture innovante basée sur le réseau Long-Short Term Memory (LSTM) puis les architectures Deep Averaging Network (DAN)
+    - Gestion de grandes quantités de données
+    - Optimisation des architectures d'apprentissage profond
+    - Participation au projet européen ITEA3-Papud
+    objective: Développement d'une architecture de réseau neuronal profond pour modéliser
+      le langage
+  place:
+    city: Nancy
+    country: France
+    institute: Loria, équipe Synalp
+    university: Université de Lorraine
+  position: Stage de recherche de fin de licence
+current_position: Doctorant
+
+# level_meilir_page_jones: Meilir Pages-Jones levels
+# level_dreyfus: in parentheses, Five Dreyfus Model Stages < recommended for display)
+# - Novice | Novice
+# - Advanced beginner | Débutant avancé
+# - Competent | Compétent
+# - Proficient | Efficace
+# - Expert | Expert
+# level_5: 0 to 5, 6 for expert (custom scale)
+# - Innocent
+# - Exposed
+# - Apprentice: 1
+# - 2:Practitioner (novice/advanced beginner)
+# - 3,4: Journeyman (competent)
+# - 5: Master (proficient)
+# - 6: Researcher (expert)
+dev:
+- category: Programmation
+  languages:
+  - language: Python
+    level_5: 5
+    level_dreyfus: efficace
+    libraries:
+        - PyTorch
+        - numpy
+        - matplotlib/seaborn
+        - pandas
+        - scikit-learn
+        - NLTK
+        - Spacy
+        - Flask
+  - language: Java
+    level_5: 3
+    level_dreyfus: compétent
+  - language: C#
+    level_5: 2
+    level_dreyfus: débutant avancé
+    libraries:
+    - Unity
+- category: Web
+  languages:
+  - language: HTML
+    level_5: 2
+    level_dreyfus: débutant avancé
+  - language: CSS
+    level_5: 2
+    level_dreyfus: débutant avancé
+  - language: JS
+    level_5: 2
+    level_dreyfus: débutant avancé
+  - language: Jekyll
+    level_5: 2
+    level_dreyfus: débutant avancé
+- category: Rédaction
+  languages:
+  - language: LaTeX
+    level_5: 4
+    level_dreyfus: compétent
+  - language: Libreoffice
+- category: OS
+  languages:
+  - language: Ubuntu / Debian
+    level_5: 3
+    level_dreyfus: compétent
+  - language: Windows
+    level_5: 2
+    level_dreyfus: débutant avancé
+
+languages:
+- level: professionnel
+  name: Anglais
+  std_level: C2
+- level: natif
+  name: Français
+  std_level: C2
+
+management:
+- colaborators: 
+  - Fadi Badra
+  - Miguel Couceiro
+  - Pierre Monin
+  date: 2023
+  description: Co-organisateur et co-chair du workshop ATA@ICCBR 2023
+  place: Aberdeen, Scotland
+- colaborators:
+  - Fadi Badra
+  - Miguel Couceiro
+  - Pierre Monin
+  date: 2022
+  description: Co-organisateur et co-chair du workshop ATA@ICCBR 2022
+  place: Nancy, France
+- colaborators:
+  - Miguel Couceiro
+  date:
+    end: 2023
+    start: 2021
+  description: Co-gestion et co-chair du séminaire Malotec
+  place: 
+
+other:
+- date:
+    end: Fév. 2020
+    start: Oct. 2020
+  description:
+    missions: Transcription orthographique Utilisation de l'outil Elan suivant le
+      guide de transcription conçu pendant le stage précédent (juin - août 2019)
+    objective: Transcription de plusieurs heures d'enregistrements audio avec jusqu'à
+      4 locuteurs simultanés
+  place:
+    city: Nancy
+    country: France
+    institute: Loria, équipe Semagramme
+    university: Université de Lorraine
+  position: Transcripteur
+- date:
+    end: May. 2018
+    start: Oct. 2018
+  description:
+    missions:
+    - Projet en paire
+    - Conception et application d'une architecture d'apprentissage profond (Deep Averaging Natwork, DAN)
+    - Détection d'anomalie par comparaison de l'évolution prévue avec l'évolution
+      observée des fichiers de journaux système
+    - Gestion et analyse de grandes quantités de données
+    - Utilisation de PyTorch
+    objective: Détection d'anomalies dans les journaux système utilisant l'apprentissage
+      profond
+  place:
+    city: Nancy
+    country: France
+    institute: Loria, équipe Synalp
+    university: Université de Lorraine
+  position: Projet MSC1 supervisé
+
+teaching:
+- colaborators:
+  - Bernardetta Addis (enseignant principal)
+  - Pierre Ludmann (assistant d'enseignement)
+  - Damien Jamet (assistant d'enseignement)
+  date:
+    end: 2024
+    start: 2023
+  description: Représentation et calculs des entiers et réels, représentation
+    et parcours des graphes
+  duration: 24h
+  duration_detail: 6x2h, 2 groupes
+  kind: TD
+  missions:
+  - Donner des TDs
+  place:
+    city: Nancy
+    country: France
+    institute: Polytech Nancy, PEIP (prépa. intégrée)
+    university: Université de Lorraine
+  position: Assistant d'enseignement
+  public: 1ère année de cycle préparatoire ingénieur, francophone
+  topic: Algorithmes pour les graphes et représentation des nombres
+- colaborators:
+  - Pierre Ludmann (assistant d'enseignement)
+  date:
+    end: 2024
+    start: 2023
+  description: Modèle Entité-Association, modèle relationnel, SQLite, introduction
+    aux bases de connaissances
+  duration: ~80h
+  duration_detail: 3x2h (CM), 6x2h (TD), 5 groupes chacun
+  kind: CM et TD
+  missions:
+  - Création de supports de cours à partir de zéro
+  - Public anglais et français, avec des supports de cours correspondant
+  place:
+    city: Nancy
+    country: France
+    institute: Polytech Nancy, spécialité IA2R et EMME
+    university: Université de Lorraine
+  position: Enseignant principal
+  public: 1ère année de cycle d'ingénierie, anglophone et francophone
+  topic: Conception de la base de données
+- colaborators:
+  - Mathieu Daquin (enseignant principal)
+  - Jessica Colombel (assistante d'enseignement)
+  date:
+    end: 2023
+    start: 2022
+  description: RDF, Turtle, SPARQL, construction d'ontologie
+  duration: 26,5h
+  duration_detail: TDs de 2h
+  kind: TD
+  missions:
+  - Donner des TDs
+  place:
+    city: Nancy
+    country: France
+    institute: IDMC, Master NLP & Master SC 
+    university: Université de Lorraine
+  position: Assistant d'enseignement
+  public: 1ère année, anglophone et francophone
+  topic: Web sémantique
+- colaborators:
+  - Miguel Couceiro (enseignant principal)
+  date:
+    end: 2023
+    start: 2022
+  description: Cours-projet, l'étudiant doit développer un outil innovant
+    basé sur la littérature académique récente
+  duration: 12h
+  kind: TD
+  missions:
+  - Supervision de jusqu'à 6 groupes de 2 à 5 étudiants
+  - Écriture de sujets de projet
+  - Évaluation (présentations de groupe le long du projet, production de code, produit
+    final, soutenance du projet)
+  place:
+    city: Nancy
+    country: France
+    institute: IDMC, Master NLP
+    university: Université de Lorraine
+  position: Assistant d'enseignement
+  public: 2e année, anglophone
+  topic: Projet logiciel
+- colaborators:
+  - Bernardeta Adis (enseignante principale)
+  date:
+    end: 2022
+    start: 2021
+  description: Bibliothèque Pyomo, définition des problèmes d'optimisation, algorithmes
+    de la recherche aléatoire au Monotonic Basin Hopping
+  duration: 8h
+  duration_detail: 4 x 2h
+  kind: TD
+  missions:
+  - Donner des TDs/CMs dans une configuration théorique / pratique mixte
+    (avec l'enseignant principal)
+  place:
+    city: Nancy
+    country: France
+    institute: École des mines
+    university: Université de Lorraine
+  position: Assistant d'enseignement
+  public: 2e & 3e année, francophone
+  topic: Optimisation globale
+- colaborators:
+  - Miguel Couceiro (enseignant principal)
+  - Guilherme Alves da Silva (assistant d'enseignement)
+  date:
+    end: 2022
+    start: 2021
+  description: Analyse formelle de concepts (Formal Concept Analysis, FCA), extraction de règles, extraction d'itemsets
+  duration: 9h
+  duration_detail: 6 x 1,5h
+  kind: TD
+  missions:
+  - Conception et classement de deux projets
+  - Donner des TDs
+  place:
+    city: Nancy
+    country: France
+    institute: IDMC, Master NLP
+    university: Université de Lorraine
+  position: Assistant d'enseignement
+  public: 2e année, anglophone
+  topic: Exploration de données
+- colaborators:
+  - Mathieu Daquin (enseignant principal)
+  - Guilherme Alves da Silva (assistant d'enseignement)
+  - Lauring Hubert (assistante d'enseignement)
+  date:
+    end: 2022
+    start: 2021
+  description: RDF, Turtle, SPARQL, conception d'ontologie
+  duration: 15h
+  kind: TD
+  missions:
+  - Donner des TDs
+  place:
+    city: Nancy
+    country: France
+    institute: IDMC, Master NLP & Master SC
+    university: Université de Lorraine
+  position: Assistant d'enseignement
+  public: 1ère année, francophone et anglophone
+  topic: Web sémantique
+- colaborators:
+  - Miguel Couceiro (enseignant principal)
+  - Maxime Amblard (enseignant)
+  date:
+    end: 2022
+    start: 2021
+  description: Cours-projet, l'étudiant doit développer un outil innovant
+    basé sur la littérature académique récente
+  duration: 10h
+  kind: TD
+  missions:
+  - Supervision de jusqu'à 4 groupes de 2 à 5 étudiants
+  - Écriture de sujets de projet
+  - Évaluation (présentations de groupe le long du projet, production de code, produit
+    final, soutenance du projet)
+  place:
+    city: Nancy
+    country: France
+    institute: IDMC, Master NLP
+    university: Université de Lorraine
+  position: Assistant d'enseignement
+  public: 2e année, anglophone
+  topic: Projet logiciel
+- colaborators:
+  - Miguel Couceiro (enseignant principal)
+  date:
+    end: 2021
+    start: 2020
+  description: Analyse du concept formel (FCA), description logiques, RDF
+  duration: 6h
+  kind: TD
+  missions:
+  - Écrire et superviser l'examen final
+  - Donner des TDs
+  place:
+    city: Nancy
+    country: France
+    institute: IDMC, Master NLP & Master SC
+    university: Université de Lorraine
+  position: Assistant d'enseignement
+  public: 1ère année, francophone et anglophone
+  topic: Web sémantique
+- colaborators:
+  - Miguel Couceiro (enseignant principal)
+  date:
+    end: 2021
+    start: 2020
+  description: RDF, RDFS, OWL, manipulation d'ontologies avec SPARQL et Protégé
+  duration: 8h
+  kind: TD
+  missions:
+  - Écrire et donner des TDs
+  - Écrire et superviser l'examen final
+  - Écrire et superviser les tests de fin de session
+  place:
+    city: Nancy
+    country: France
+    institute: IDMC, Master NLP
+    university: Université de Lorraine
+  position: Assistant d'enseignement
+  public: 2e année, anglophone
+  topic: Ontologies
+- date: Août 2019
+  description: tutorat pendant les séances pratiques de l'école d'été <i>Python4NLP</i>
+  duration: 1 semaine
+  missions: enseigner les bases de la programmation Python pour le prétraitement et
+    l'analyse des données textuelles et l'application des outils standards de Traitement Automatique des Langues (Natural Language Processing, NLP), l'apprentissage
+    automatique et l'apprentissage profond; certificat disponible
+  place:
+    city: Nancy
+    country: France
+    institute: Loria, équipe Synalp
+    university: Université de Lorraine
+  position: Assistant d'enseignement
+  public: doctorants et jeunes chercheurs, anglophone
+  topic: École d'été <i>Python4NLP</i> 
+
+training:
+- date:
+    end: Juil. 2020
+    start: Sept. 2018
+  description: Cours en anglais.
+  place:
+    city: Nancy
+    country: France
+    institute: Institut des Sciences du Digital, Management et Cognition (IDMC)
+    university: Université de Lorraine
+  title: Master in Natural Language Processing (NLP)
+- date:
+    end: Juil. 2018
+    start: Sept. 2015
+  place:
+    city: Nancy
+    country: France
+    institute: UFR mathématiques et informatique
+    university: Université de Lorraine
+  title: Licence en Mathématiques et en Informatique Appliquées aux Sciences Humaines et Sociales
+    (MIAHS)
+- date: 2015
+  description: Baccalauré scientifique
+  note: avec les honneurs.
+  place:
+    city: Metz
+    country: France
+    institute: Lycée Louis-Vincent
+  title: Baccalauréat Général et Technologie
+
+
+tutoring:
+  intern:
+  - date: 2024
+    description:
+      missions:
+      - Supervision, rencontre avec le superviseur de l'entreprise, l'évaluation de
+        la défense et des rapports
+      objective: Superviseur académique de 6 étudiants dans leur dernière année de cycle ingénieur (equivalent M2), 4
+        mois de stage
+    place:
+      city: Nancy
+      country: France
+      institute: Polytech Nancy
+      university: Université de Lorraine
+    position: Superviseur de 6 stages de 3e année de cycle ingénieur
+  - date: 2024
+    description:
+      missions:
+      - Évaluation des rapports
+      objective: Superviseur académique d'un étudiant au cours de sa 2e année de cycle ingénieur (equivalent M1)
+    place:
+      city: Nancy
+      country: France
+      institute: Polytech Nancy
+      university: Université de Lorraine
+    position: Superviseur de stage de 2e année de cycle ingénieur
+  - colaborators:
+    - Miguel Couceiro (co-superviseur)
+    date: 2020
+    description:
+      objective: analogies dans et entre bases de connaisances, analogies entre phrases
+    place:
+      city: Nancy
+      country: France
+      institute: Loria, équipe Orpailleur
+      university: Université de Lorraine
+    position: Superviseur de 2 stage de master
+  - colaborators:
+    - Miguel Couceiro (co-superviseur)
+    - Anahita Poulad (stagiaire, M1)
+    date:
+      end: ??? 2021
+      start: Mai 2021
+    description:
+      objective: génération de contrefactuels (contre-exemples proches utilisés pour expliquer les prédictions d'un modèle) en utilisant des proportions analogiques
+    place:
+      city: Nancy
+      country: France
+      institute: Loria, équipe Orpailleur
+      university: Université de Lorraine
+    position: Superviseur de stage des maîtres
+  - colaborators:
+    - Miguel Couceiro (co-superviseur)
+    - Safa Alsaidi (stagiaire, M1)
+    date:
+      end: Aout 2021
+      start: Mai 2021
+    description:
+      objective: proportion analogiques sur la morphologie des mots entre langues
+      outcomes:
+      - Papier "On the Transferability of Neural Models of Morphological Analogies"
+    place:
+      city: Nancy
+      country: France
+      institute: Loria, équipe Orpailleur
+      university: Université de Lorraine
+    position: Superviseur de stage des maîtres
+
+
+  student:
+  - colaborators:
+    - Miguel Couceiro (co-superviseur)
+    - Safa Alsaidi (étudiante)
+    - Amandine Decker (étudiante)
+    - Stephanie Monteiro (étudiante)
+    date:
+      end: 2021
+      start: 2020
+    description:
+      objective: Résoudre les proportions analogies morphologiques
+    place:
+      city: Nancy
+      country: France
+      institute: Loria, équipe Orpailleur
+      university: Université de Lorraine
+    position: Superviseur de projet
+    scope: 1ère année de Master IDMC
+  - colaborators:
+    - Miguel Couceiro (co-superviseur)
+    - Safa Alsaidi (étudiante)
+    - Amandine Decker (étudiante)
+    - Puthineath Lay (étudiante)
+    date:
+      end: 2021
+      start: 2020
+    description:
+      objective: Détecter les proportions analogies morphologiques
+    place:
+      city: Nancy
+      country: France
+      institute: Loria, équipe Orpailleur
+      university: Université de Lorraine
+    position: Superviseur de projet
+    scope: 1ère année de Master à IDMC
+  - colaborators:
+    - Miguel Couceiro (co-superviseur)
+    - Tuan-Anh Vo (étudiant)
+    - Rameeze Qureshi (étudiant)
+    - Fatima Habib (étudiante)
+    - Asmaa Demny (étudiante)
+    - Min-Huong Ngo (étudiant)
+    date:
+      end: 2021
+      start: 2020
+    description:
+      topic: combiner les embeddings contextuels (de mots) et les embeddings de graphes de connaisance
+    place:
+      city: Nancy
+      country: France
+      institute: Loria, équipe Orpailleur
+      university: Université de Lorraine
+    position: Superviseur de projet
+    scope: 1ère année de Master à IDMC

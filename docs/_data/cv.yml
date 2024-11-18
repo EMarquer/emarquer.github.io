@@ -250,6 +250,7 @@ teaching:
       university: Université de Lorraine
       city: Nancy
       country: France
+    public: Ph.D students and young researchers
     description: tutoring during the practicals of the <i>Python4NLP</i> summer school
     missions: teaching the bases of Python programming for the preprocessing and analysis of text data and the application of standard NLP tools, machine learning and deep learning; certificate available
 
@@ -307,7 +308,7 @@ academia:
     description:
       objective: development of a deep neural network architecture to model language
       missions:
-        - discovery of deep learning of PyTorch
+        - discovery of deep learning and of PyTorch
         - design of an innovating architecture based on the Long-Short Term Memory network (LSTM) then the Deep Averaging Network (DAN) architectures
         - management of large amounts of data
         - optimization of deep learning architectures
@@ -315,7 +316,7 @@ academia:
   
 tutoring:
   intern:
-    - position: 5th year internship supervisor
+    - position: 5th year internship supervisor, 6 interns
       date: 2024
       place:
         institute: Polytech Nancy
@@ -328,8 +329,6 @@ tutoring:
           - supervision, meeting with the company supervisor, defense and report evaluation
     - position: 4th year internship supervisor
       date: 2024
-      colaborators:
-        - Miguel Couceiro (co-supervisor)
       place:
         institute: Polytech Nancy
         university: Université de Lorraine
@@ -339,10 +338,8 @@ tutoring:
         objective: academic supervisor of a student in their 4th (of 5) year 
         missions:
           - report evaluation
-    - position: Masters internship supervisor
-      date:
-        start: ??? 2020
-        end: ??? 2020
+    - position: Masters internship supervisor, 2 interns
+      date: 2020
       colaborators:
         - Miguel Couceiro (co-supervisor)
       place:
@@ -351,29 +348,21 @@ tutoring:
         city: Nancy
         country: France
       description:
-        objective: ???
-        missions:
-          - ???
-        outcomes:
-          - ???
+        objective: analogies within and between knowledge bases, analogies between sentences
     - position: Masters internship supervisor
       date:
         start: May 2021
         end: ??? 2021
       colaborators:
         - Miguel Couceiro (co-supervisor)
-        - Anahita Poulad (intern)
+        - Anahita Poulad (intern, MSc 1)
       place:
         institute: LORIA, Orpailleur team
         university: Université de Lorraine
         city: Nancy
         country: France
       description:
-        objective: ???
-        missions:
-          - ???
-        outcomes:
-          - ???
+        objective: generation of counterfactuals (close counter-examples used to explain model predictions) using analogical proportions
     - position: Masters internship supervisor
       date:
         start: May 2021
@@ -387,11 +376,9 @@ tutoring:
         city: Nancy
         country: France
       description:
-        objective: ???
-        missions:
-          - ???
+        objective: analogical proportion on word morphology between languages
         outcomes:
-          - ???
+          - Paper "On the Transferability of Neural Models of Morphological Analogies"
 
   student:
     - position: Project supervisor
@@ -410,12 +397,7 @@ tutoring:
         city: Nancy
         country: France
       description:
-        topic: solving morphological analogies
-        objective: ???
-        missions:
-          - ???
-        outcomes:
-          - ???
+        objective: solving morphological analogies
     - position: Project supervisor
       date:
         start: 2020
@@ -432,12 +414,7 @@ tutoring:
         city: Nancy
         country: France
       description:
-        topic: ???
-        objective: ???
-        missions:
-          - ???
-        outcomes:
-          - ???
+        objective: detecting morphological analogies
     - position: Project supervisor
       date:
         start: 2020
@@ -446,7 +423,7 @@ tutoring:
       colaborators:
         - Miguel Couceiro (co-supervisor)
         - Tuan-Anh Vo (student)
-        - Rameeze  (student)
+        - Rameeze Qureshi (student)
         - Fatima Habib (student)
         - Asmaa Demny (student)
         - Min-Huong Ngo (student)
@@ -456,19 +433,26 @@ tutoring:
         city: Nancy
         country: France
       description:
-        topic: combining embeddings
+        topic: combining contextual word and knowledge graph embeddings
   
 management:
-  - description: ATA@ICCBR 2023
+  - description: Co-organizer and co-chair of the ATA@ICCBR 2023 workshop
     colaborators:
-    place:
+    - Fadi Badra
+    - Miguel Couceiro
+    - Pierre Monin
+    place: Aberdeen, Scotland
     date: 2023
-  - description: ATA@ICCBR 2022
+  - description: Co-organizer and co-chair of the ATA@ICCBR 2022 workshop
     colaborators:
-    place:
+    - Fadi Badra
+    - Miguel Couceiro
+    - Pierre Monin
+    place: Nancy, France
     date: 2022
   - description: Malotec seminar co-management and co-chair
     colaborators:
+  -   Miguel Couceiro
     place:
     date:
       start: 2021
@@ -501,7 +485,7 @@ other:
       missions:
         - project in pair
         - design and application of a deep learning architecture (Deep Averaging Natwork, DAN)
-        - anomaly detection by comparison of the predicted evolution with the observed evolution of the logs
+        - anomaly detection by comparison of the predicted evolution with the observed evolution of system logs
         - management and analysis of large amounts of data
         - use of PyTorch
 
@@ -579,7 +563,7 @@ dev:
       level_5: 2
   - category: Writing
     languages:
-    - language: Latex
+    - language: LaTeX
       level_meilir_page_jones: journeyman
       level_dreyfus: competent
       level_5: 4
