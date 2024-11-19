@@ -1,11 +1,16 @@
 ## Analogical proportions on embedding spaces
 me: E. Marquer
 venuetypes:
-- Special issue article
-- Conference
-- Workshop
-- Dataset
-- Other
+- en: Special issue article
+  fr: Article de journal
+- en: Conference
+  fr: Articles de conférence
+- en: Workshop
+  fr: Articles de workshop
+- en: Dataset
+  fr: Jeu de données
+- en: Other
+  fr: Autre publications
 categories:
 - Analogical proportions on embedding spaces
 - Analogical proportions and Case Based Reasoning
@@ -575,6 +580,24 @@ pubs:
       - format: PDF
         source: arXiv
         url: https://arxiv.org/pdf/2004.08371.pdf
+- title: "Reasoning over Data: Analogy-based and Transfer Learning to improve Machine Learning."
+  category: Analogical proportions on embedding spaces
+  venuetype: Other
+  type:
+    - thesis
+  author:
+    - E. Marquer
+  date: 2024
+  note: "Ph.D. thesis"
+  links:
+    - ressource: paper
+      links:
+      - format: page
+        source: theses.fr
+        url: https://theses.fr/2024LORR0056
+      - format: PDF
+        source: theses.fr
+        url: https://docnum.univ-lorraine.fr/public/DDOC_T_2024_0056_MARQUER.pdf
 
 - title: Siganalogies - morphological analogies from Sigmorphon 2016 and 2019
   category: Analogical proportions on embedding spaces

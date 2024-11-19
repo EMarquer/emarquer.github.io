@@ -7,7 +7,7 @@ print: compact
 
 <div class="page">
 <!--h1>Esteban Marquer - Accademic</h1-->
-<h1>Esteban Marquer - Docteur en Informatique</h1>
+<h1>Esteban Marquer</h1>
 <ul class="cv-contact">
 <li><i class="fas fa-fw fa-at"></i> {{ site.email }}</li>
 <li><i class="fas fa-fw fa-phone"></i> +33 6 78 09 35 84</li>
@@ -48,15 +48,15 @@ L'un des principaux avantages du RA est sa facilité d'interprétation : le méc
 {% endfor %}
 </ul>
 
-<h2><i class="fas fa-fw fa-chalkboard-teacher"></i> Teaching</h2>
+<h2><i class="fas fa-fw fa-chalkboard-teacher"></i> Enseignement</h2>
 <ul class="cv-teaching">
 {% for teaching in site.data.cv-fr.teaching %}
-  <li>{% include cv_print/teaching.html teaching=teaching print=page.print %}</li>
+  <li>{% include cv_print/teaching-fr.html teaching=teaching print=page.print %}</li>
 {% endfor %}
 </ul>
 
 {% comment %}
-<h2><i class="fas fa-fw fa-graduation-cap"></i> Training</h2>
+<h2><i class="fas fa-fw fa-graduation-cap"></i> Formations</h2>
 <ul class="cv-training">
 {% for training in site.data.cv-fr.training %}
   <li>
@@ -71,7 +71,7 @@ L'un des principaux avantages du RA est sa facilité d'interprétation : le méc
 {% endcomment %}
 
 {% comment %}
-<h2><i class="fas fa-fw fa-briefcase"></i> Other experience</h2>
+<h2><i class="fas fa-fw fa-briefcase"></i> Autres expériences</h2>
 <ul class="cv-other">
 {% for other in site.data.cv-fr.other %}
   <li>
@@ -106,14 +106,14 @@ L'un des principaux avantages du RA est sa facilité d'interprétation : le méc
   {% assign tagsPresent = sortedPubs | map: "venuetype" | uniq %}
   {% assign tags = site.data.publications.venuetypes %}
   {% for tag in tags %}
-  {% if tagsPresent contains tag %}
-  <h4>{{ tag }}</h4>
+  {% if tagsPresent contains tag.en %}
+  <h4>{{ tag.fr }}</h4>
   <ul class="cv-bib bib-items">
 
   <!-- {% for pub in site.data.publications.pubs %}
   {% endfor %} -->
   {% for pub in sortedPubs %}
-    {% if pub.venuetype == tag %}
+    {% if pub.venuetype == tag.en %}
     <li class="bib-item">
     {% include cv_print/pub.html pub=pub %}
     </li>

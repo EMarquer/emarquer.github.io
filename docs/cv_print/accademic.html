@@ -106,14 +106,14 @@ A key advantage of AR is the ease of interpretation: the mechanism itself is int
   {% assign tagsPresent = sortedPubs | map: "venuetype" | uniq %}
   {% assign tags = site.data.publications.venuetypes %}
   {% for tag in tags %}
-  {% if tagsPresent contains tag %}
-  <h4>{{ tag }}</h4>
+  {% if tagsPresent contains tag.en %}
+  <h4>{{ tag.en }}</h4>
   <ul class="cv-bib bib-items">
 
   <!-- {% for pub in site.data.publications.pubs %}
   {% endfor %} -->
   {% for pub in sortedPubs %}
-    {% if pub.venuetype == tag %}
+    {% if pub.venuetype == tag.en %}
     <li class="bib-item">
     {% include cv_print/pub.html pub=pub %}
     </li>

@@ -255,6 +255,18 @@ teaching:
     missions: teaching the bases of Python programming for the preprocessing and analysis of text data and the application of standard NLP tools, machine learning and deep learning; certificate available
 
 academia:
+  - position: Post doctoral fellow
+    date:
+      start: Oct. 2024
+      end: Now
+    place:
+      institute: CRIL
+      university: Université d'Artois
+      city: Lens
+      country: France
+    description:
+      objective: study of analogical reasoning and their applications in large language models
+      missions: <b>Jury:</b> Zied Bouraoui (reviewer), Dafna Shahaf (reviewer), Maxime Amblard (president), Mario Figueiredo, Miguel Couceiro (supervisor), Alain Gély (co-supervisor)
   - position: Ph.D.
     date:
       start: Oct. 2020
@@ -452,7 +464,7 @@ management:
     date: 2022
   - description: Malotec seminar co-management and co-chair
     colaborators:
-  -   Miguel Couceiro
+    - Miguel Couceiro
     place:
     date:
       start: 2021

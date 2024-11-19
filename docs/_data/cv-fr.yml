@@ -1,10 +1,22 @@
 academia:
+- position: Postdoctorant
+  date:
+    start: Oct. 2024
+    end: Ajd.
+  place:
+    institute: CRIL
+    university: Université d'Artois
+    city: Lens
+    country: France
+  description:
+    objective: Étude du raisonnement analogique et de ses applications dans les grand modèle de langue (large language models)
 - date:
     end: Juin 2024
     start: Oct. 2020
   description:
     objective: Étude des proportions analogiques et de leurs applications dans l'apprentissage
       automatique et en particulier l'apprentissage profond
+    missions: <b>Jury:</b> Zied Bouraoui (relecteur), Dafna Shahaf (relectrice), Maxime Amblard (président), Mario Figueiredo, Miguel Couceiro (superviseur), Alain Gély (co-superviseur)
   place:
     city: Nancy
     country: France
@@ -198,8 +210,8 @@ other:
 teaching:
 - colaborators:
   - Bernardetta Addis (enseignant principal)
-  - Pierre Ludmann (assistant d'enseignement)
-  - Damien Jamet (assistant d'enseignement)
+  - Pierre Ludmann (chargé de TD)
+  - Damien Jamet (chargé de TD)
   date:
     end: 2024
     start: 2023
@@ -215,11 +227,11 @@ teaching:
     country: France
     institute: Polytech Nancy, PEIP (prépa. intégrée)
     university: Université de Lorraine
-  position: Assistant d'enseignement
-  public: 1ère année de cycle préparatoire ingénieur, francophone
+  position: Chargé de TD
+  public: 1ère année de cycle préparatoire ingénieur (francophone)
   topic: Algorithmes pour les graphes et représentation des nombres
 - colaborators:
-  - Pierre Ludmann (assistant d'enseignement)
+  - Pierre Ludmann (chargé de TD)
   date:
     end: 2024
     start: 2023
@@ -236,12 +248,12 @@ teaching:
     country: France
     institute: Polytech Nancy, spécialité IA2R et EMME
     university: Université de Lorraine
-  position: Enseignant principal
-  public: 1ère année de cycle d'ingénierie, anglophone et francophone
+  position: Chargé de CM et TD
+  public: 1ère année de cycle d'ingénierie (anglophone et francophone)
   topic: Conception de la base de données
 - colaborators:
   - Mathieu Daquin (enseignant principal)
-  - Jessica Colombel (assistante d'enseignement)
+  - Jessica Colombel (chargée de TD)
   date:
     end: 2023
     start: 2022
@@ -256,8 +268,8 @@ teaching:
     country: France
     institute: IDMC, Master NLP & Master SC 
     university: Université de Lorraine
-  position: Assistant d'enseignement
-  public: 1ère année, anglophone et francophone
+  position: Chargé de TD
+  public: 1ère année (anglophone et francophone)
   topic: Web sémantique
 - colaborators:
   - Miguel Couceiro (enseignant principal)
@@ -278,8 +290,8 @@ teaching:
     country: France
     institute: IDMC, Master NLP
     university: Université de Lorraine
-  position: Assistant d'enseignement
-  public: 2e année, anglophone
+  position: Chargé de TD
+  public: 2e année (anglophone)
   topic: Projet logiciel
 - colaborators:
   - Bernardeta Adis (enseignante principale)
@@ -299,12 +311,12 @@ teaching:
     country: France
     institute: École des mines
     university: Université de Lorraine
-  position: Assistant d'enseignement
-  public: 2e & 3e année, francophone
+  position: Chargé de TD
+  public: 2e & 3e année (francophone)
   topic: Optimisation globale
 - colaborators:
   - Miguel Couceiro (enseignant principal)
-  - Guilherme Alves da Silva (assistant d'enseignement)
+  - Guilherme Alves da Silva (chargé de TD)
   date:
     end: 2022
     start: 2021
@@ -320,13 +332,13 @@ teaching:
     country: France
     institute: IDMC, Master NLP
     university: Université de Lorraine
-  position: Assistant d'enseignement
-  public: 2e année, anglophone
+  position: Chargé de TD
+  public: 2e année (anglophone)
   topic: Exploration de données
 - colaborators:
   - Mathieu Daquin (enseignant principal)
-  - Guilherme Alves da Silva (assistant d'enseignement)
-  - Lauring Hubert (assistante d'enseignement)
+  - Guilherme Alves da Silva (chargé de TD)
+  - Lauring Hubert (chargée de TD)
   date:
     end: 2022
     start: 2021
@@ -340,8 +352,8 @@ teaching:
     country: France
     institute: IDMC, Master NLP & Master SC
     university: Université de Lorraine
-  position: Assistant d'enseignement
-  public: 1ère année, francophone et anglophone
+  position: Chargé de TD
+  public: 1ère année (anglophone et francophone)
   topic: Web sémantique
 - colaborators:
   - Miguel Couceiro (enseignant principal)
@@ -363,8 +375,8 @@ teaching:
     country: France
     institute: IDMC, Master NLP
     university: Université de Lorraine
-  position: Assistant d'enseignement
-  public: 2e année, anglophone
+  position: Chargé de TD
+  public: 2e année (anglophone)
   topic: Projet logiciel
 - colaborators:
   - Miguel Couceiro (enseignant principal)
@@ -382,8 +394,8 @@ teaching:
     country: France
     institute: IDMC, Master NLP & Master SC
     university: Université de Lorraine
-  position: Assistant d'enseignement
-  public: 1ère année, francophone et anglophone
+  position: Chargé de TD
+  public: 1ère année (anglophone et francophone)
   topic: Web sémantique
 - colaborators:
   - Miguel Couceiro (enseignant principal)
@@ -402,8 +414,8 @@ teaching:
     country: France
     institute: IDMC, Master NLP
     university: Université de Lorraine
-  position: Assistant d'enseignement
-  public: 2e année, anglophone
+  position: Chargé de TD
+  public: 2e année (anglophone)
   topic: Ontologies
 - date: Août 2019
   description: tutorat pendant les séances pratiques de l'école d'été <i>Python4NLP</i>
@@ -416,8 +428,8 @@ teaching:
     country: France
     institute: Loria, équipe Synalp
     university: Université de Lorraine
-  position: Assistant d'enseignement
-  public: doctorants et jeunes chercheurs, anglophone
+  position: Chargé de TD
+  public: doctorants et jeunes chercheurs (anglophone)
   topic: École d'été <i>Python4NLP</i> 
 
 training:
