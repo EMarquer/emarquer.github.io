@@ -3,6 +3,7 @@
 
 ins {text-decoration-thickness: 5%;}
 .cv-contact{
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -66,13 +67,17 @@ ins {text-decoration-thickness: 5%;}
     .booktitle {font-style: italic;}
 }
 .page{
-    padding: 0;
+    font-size: 65%;
+    box-sizing: border-box;
+    width: calc(21cm + 1px); // + 1 px to deal with a margin issue
+    height: 29.7cm;
+    //padding: 0;
     &>* {
         margin: 20px;
     }
     & h1 {
         margin: 0;
-        padding:20px;
+        padding: 20px;
         font-size: 300%;
     }
     & h4 {
@@ -81,6 +86,15 @@ ins {text-decoration-thickness: 5%;}
     & .cv-bib {
         margin-top: 5px;
     }
+
+    padding: 1.5cm;
+    & > h1 {
+        //invert padding for header
+        margin-top: -1.5cm;
+        margin-left: -1.5cm;
+        margin-right: -1.5cm;
+    }
+    & ~ .page{padding-top: 1.5cm;}
 }
 h1 {
     background: darkgray;
@@ -112,15 +126,10 @@ h2 {
     }
 
     .page {
-        font-size: 70%;
         background: white;
-        //padding: 20px;
         border: 2px solid gray;
-        width: 21cm;
-        height: 29.7cm;
         margin-top: 20px;
         margin-bottom: 20px;
-        //padding: .7in .4in .2in .4in;
     }
 
     footer {
@@ -131,17 +140,10 @@ h2 {
     }
 }
 @media print {
+    body {margin: 0;}
     .page {
-        font-size: 65%;
         background: white;
-        //padding: 20px;
-        //font-size: 70%;
-        //width: 21cm;
-        //height: 29.7cm;
-        width: 18.46cm;
-        height: 27.16cm;
         page-break-after: always;
-        & h1 {margin-top: -.95em; padding-bottom: 0px;}
     }
     footer {
         display: none;

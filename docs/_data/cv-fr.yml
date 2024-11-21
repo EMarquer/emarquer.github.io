@@ -249,7 +249,7 @@ teaching:
     institute: Polytech Nancy, spécialité IA2R et EMME
     university: Université de Lorraine
   position: Chargé de CM et TD
-  public: 1ère année de cycle d'ingénierie (anglophone et francophone)
+  public: 1ère année de cycle ingénieur (anglophone et francophone)
   topic: Conception de la base de données
 - colaborators:
   - Mathieu Daquin (enseignant principal)
@@ -257,7 +257,7 @@ teaching:
   date:
     end: 2023
     start: 2022
-  description: RDF, Turtle, SPARQL, construction d'ontologie
+  description: RDF, Turtle, SPARQL, conception d'ontologie
   duration: 26,5h
   duration_detail: TDs de 2h
   kind: TD
