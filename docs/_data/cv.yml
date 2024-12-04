@@ -350,17 +350,31 @@ tutoring:
         objective: academic supervisor of a student in their 4th (of 5) year 
         missions:
           - report evaluation
-    - position: Masters internship supervisor, 2 interns
-      date: 2020
+    - position: Masters internship supervisor
+      date: 2023
       colaborators:
         - Miguel Couceiro (co-supervisor)
+        - Pierre Monin (co-supervisor)
+        - Adrien Chasaing (intern, MSc 1)
       place:
         institute: LORIA, Orpailleur team
         university: Université de Lorraine
         city: Nancy
         country: France
       description:
-        objective: analogies within and between knowledge bases, analogies between sentences
+        objective: analogies within and between knowledge bases
+    - position: Masters internship supervisor
+      date: 2022
+      colaborators:
+        - Miguel Couceiro (co-supervisor)
+        - Guillaume Richez (intern, MSc 2)
+      place:
+        institute: LORIA, Orpailleur team
+        university: Université de Lorraine
+        city: Nancy
+        country: France
+      description:
+        objective: analogies between sentences
     - position: Masters internship supervisor
       date:
         start: May 2021
@@ -395,9 +409,28 @@ tutoring:
   student:
     - position: Project supervisor
       date:
-        start: 2020
-        end: 2021
+        start: 2022
+        end: 2023
       scope: 1st year master at IDMC
+      colaborators:
+        - Miguel Couceiro (co-supervisor)
+        - Gaël Guibon (co-supervisor)
+        - Louis Berrane (student)
+        - Abir Lettifi (student)
+        - Camille Saran (student)
+        - Maeva Sillaire (student)
+      place:
+        institute: LORIA, Orpailleur team
+        university: Université de Lorraine
+        city: Nancy
+        country: France
+      description:
+        objective: using analogical proportions to generate puns and memes
+    - position: Project supervisor
+      date:
+        start: 2021
+        end: 2022
+      scope: 2nd year master at IDMC
       colaborators:
         - Miguel Couceiro (co-supervisor)
         - Safa Alsaidi (student)
@@ -412,8 +445,8 @@ tutoring:
         objective: solving morphological analogies
     - position: Project supervisor
       date:
-        start: 2020
-        end: 2021
+        start: 2021
+        end: 2022
       scope: 1st year master at IDMC
       colaborators:
         - Miguel Couceiro (co-supervisor)
@@ -429,9 +462,9 @@ tutoring:
         objective: detecting morphological analogies
     - position: Project supervisor
       date:
-        start: 2020
-        end: 2021
-      scope: 1st year master at IDMC
+        start: 2021
+        end: 2022
+      scope: 2st year master at IDMC
       colaborators:
         - Miguel Couceiro (co-supervisor)
         - Tuan-Anh Vo (student)

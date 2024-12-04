@@ -177,7 +177,7 @@ other:
     end: Fév. 2020
     start: Oct. 2020
   description:
-    missions: Transcription orthographique Utilisation de l'outil Elan suivant le
+    missions: Transcription de l'oral vers l'écrit en utilisant de l'outil Elan suivant le
       guide de transcription conçu pendant le stage précédent (juin - août 2019)
     objective: Transcription de plusieurs heures d'enregistrements audio avec jusqu'à
       4 locuteurs simultanés
@@ -220,6 +220,7 @@ teaching:
   duration: 24h
   duration_detail: 6x2h, 2 groupes
   kind: TD
+  lang: FR
   missions:
   - Donner des TDs
   place:
@@ -229,6 +230,8 @@ teaching:
     university: Université de Lorraine
   position: Chargé de TD
   public: 1ère année de cycle préparatoire ingénieur (francophone)
+  public_mld: L1
+  status: ATER
   topic: Algorithmes pour les graphes et représentation des nombres
 - colaborators:
   - Pierre Ludmann (chargé de TD)
@@ -240,9 +243,13 @@ teaching:
   duration: ~80h
   duration_detail: 3x2h (CM), 6x2h (TD), 5 groupes chacun
   kind: CM et TD
+  lang: 
+  - FR
+  - EN
   missions:
   - Création de supports de cours à partir de zéro
   - Public anglais et français, avec des supports de cours correspondant
+  - Creation de l'évaluation continue et de projets
   place:
     city: Nancy
     country: France
@@ -250,6 +257,8 @@ teaching:
     university: Université de Lorraine
   position: Chargé de CM et TD
   public: 1ère année de cycle ingénieur (anglophone et francophone)
+  public_mld: L3
+  status: ATER
   topic: Conception de la base de données
 - colaborators:
   - Mathieu Daquin (enseignant principal)
@@ -261,6 +270,9 @@ teaching:
   duration: 26,5h
   duration_detail: TDs de 2h
   kind: TD
+  lang: 
+  - FR
+  - EN
   missions:
   - Donner des TDs
   place:
@@ -270,6 +282,8 @@ teaching:
     university: Université de Lorraine
   position: Chargé de TD
   public: 1ère année (anglophone et francophone)
+  public_mld: M1
+  status: vacataire
   topic: Web sémantique
 - colaborators:
   - Miguel Couceiro (enseignant principal)
@@ -280,6 +294,7 @@ teaching:
     basé sur la littérature académique récente
   duration: 12h
   kind: TD
+  lang: EN
   missions:
   - Supervision de jusqu'à 6 groupes de 2 à 5 étudiants
   - Écriture de sujets de projet
@@ -292,6 +307,8 @@ teaching:
     university: Université de Lorraine
   position: Chargé de TD
   public: 2e année (anglophone)
+  public_mld: M2
+  status: vacataire
   topic: Projet logiciel
 - colaborators:
   - Bernardeta Adis (enseignante principale)
@@ -303,6 +320,7 @@ teaching:
   duration: 8h
   duration_detail: 4 x 2h
   kind: TD
+  lang: FR
   missions:
   - Donner des TDs/CMs dans une configuration théorique / pratique mixte
     (avec l'enseignant principal)
@@ -313,6 +331,8 @@ teaching:
     university: Université de Lorraine
   position: Chargé de TD
   public: 2e & 3e année (francophone)
+  public_mld: L2 & L3
+  status: vacataire
   topic: Optimisation globale
 - colaborators:
   - Miguel Couceiro (enseignant principal)
@@ -324,8 +344,9 @@ teaching:
   duration: 9h
   duration_detail: 6 x 1,5h
   kind: TD
+  lang: EN
   missions:
-  - Conception et classement de deux projets
+  - Conception et notation de deux projets
   - Donner des TDs
   place:
     city: Nancy
@@ -334,17 +355,22 @@ teaching:
     university: Université de Lorraine
   position: Chargé de TD
   public: 2e année (anglophone)
+  public_mld: M2
+  status: vacataire
   topic: Exploration de données
 - colaborators:
-  - Mathieu Daquin (enseignant principal)
+  - Mathieu d'Aquin (enseignant principal)
   - Guilherme Alves da Silva (chargé de TD)
-  - Lauring Hubert (chargée de TD)
+  - Laurine Hubert (chargée de TD)
   date:
     end: 2022
     start: 2021
   description: RDF, Turtle, SPARQL, conception d'ontologie
   duration: 15h
   kind: TD
+  lang: 
+  - EN
+  - FR
   missions:
   - Donner des TDs
   place:
@@ -354,6 +380,8 @@ teaching:
     university: Université de Lorraine
   position: Chargé de TD
   public: 1ère année (anglophone et francophone)
+  public_mld: M1
+  status: vacataire
   topic: Web sémantique
 - colaborators:
   - Miguel Couceiro (enseignant principal)
@@ -365,6 +393,7 @@ teaching:
     basé sur la littérature académique récente
   duration: 10h
   kind: TD
+  lang: EN
   missions:
   - Supervision de jusqu'à 4 groupes de 2 à 5 étudiants
   - Écriture de sujets de projet
@@ -377,6 +406,8 @@ teaching:
     university: Université de Lorraine
   position: Chargé de TD
   public: 2e année (anglophone)
+  public_mld: M2
+  status: vacataire
   topic: Projet logiciel
 - colaborators:
   - Miguel Couceiro (enseignant principal)
@@ -386,6 +417,9 @@ teaching:
   description: Analyse du concept formel (FCA), description logiques, RDF
   duration: 6h
   kind: TD
+  lang: 
+  - EN
+  - FR
   missions:
   - Écrire et superviser l'examen final
   - Donner des TDs
@@ -396,6 +430,8 @@ teaching:
     university: Université de Lorraine
   position: Chargé de TD
   public: 1ère année (anglophone et francophone)
+  public_mld: M1
+  status: vacataire
   topic: Web sémantique
 - colaborators:
   - Miguel Couceiro (enseignant principal)
@@ -405,6 +441,7 @@ teaching:
   description: RDF, RDFS, OWL, manipulation d'ontologies avec SPARQL et Protégé
   duration: 8h
   kind: TD
+  lang: EN
   missions:
   - Écrire et donner des TDs
   - Écrire et superviser l'examen final
@@ -416,6 +453,8 @@ teaching:
     university: Université de Lorraine
   position: Chargé de TD
   public: 2e année (anglophone)
+  public_mld: M2
+  status: vacataire
   topic: Ontologies
 - date: Août 2019
   description: tutorat pendant les séances pratiques de l'école d'été <i>Python4NLP</i>
@@ -430,6 +469,8 @@ teaching:
     university: Université de Lorraine
   position: Chargé de TD
   public: doctorants et jeunes chercheurs (anglophone)
+  public_mld: doctorants et jeunes chercheurs
+  status: bénévole
   topic: École d'été <i>Python4NLP</i> 
 
 training:
@@ -491,15 +532,29 @@ tutoring:
     position: Superviseur de stage de 2e année de cycle ingénieur
   - colaborators:
     - Miguel Couceiro (co-superviseur)
-    date: 2020
+    - Pierre Monin (co-superviseur)
+    - Adrien Chasaing (stagiaire, M1)
+    date: 2023
     description:
-      objective: analogies dans et entre bases de connaisances, analogies entre phrases
+      objective: analogies dans et entre bases de connaisances
     place:
       city: Nancy
       country: France
       institute: Loria, équipe Orpailleur
       university: Université de Lorraine
-    position: Superviseur de 2 stage de master
+    position: Superviseur de stage de master 1
+    - colaborators:
+      - Miguel Couceiro (co-superviseur)
+      - Guillaume Richez (stagiaire, M2)
+      date: 2022
+      description:
+        objective: analogies entre phrases
+      place:
+        city: Nancy
+        country: France
+        institute: Loria, équipe Orpailleur
+        university: Université de Lorraine
+      position: Superviseur de stage de master 2
   - colaborators:
     - Miguel Couceiro (co-superviseur)
     - Anahita Poulad (stagiaire, M1)
@@ -513,7 +568,7 @@ tutoring:
       country: France
       institute: Loria, équipe Orpailleur
       university: Université de Lorraine
-    position: Superviseur de stage des maîtres
+    position: Superviseur de stage de de master 1
   - colaborators:
     - Miguel Couceiro (co-superviseur)
     - Safa Alsaidi (stagiaire, M1)
@@ -521,7 +576,7 @@ tutoring:
       end: Aout 2021
       start: Mai 2021
     description:
-      objective: proportion analogiques sur la morphologie des mots entre langues
+      objective: proportions analogiques sur la morphologie des mots entre langues
       outcomes:
       - Papier "On the Transferability of Neural Models of Morphological Analogies"
     place:
@@ -529,18 +584,38 @@ tutoring:
       country: France
       institute: Loria, équipe Orpailleur
       university: Université de Lorraine
-    position: Superviseur de stage des maîtres
+    position: Superviseur de stage de master 1
 
 
   student:
+    - position: Project supervisor
+      date:
+        start: 2022
+        end: 2023
+      colaborators:
+        - Miguel Couceiro (co-superviseur)
+        - Gaël Guibon (co-superviseur)
+        - Louis Berrane (étudiant)
+        - Abir Lettifi (étudiant)
+        - Camille Saran (étudiante)
+        - Maeva Sillaire (étudiante)
+        place:
+          city: Nancy
+          country: France
+          institute: Loria, équipe Orpailleur
+          university: Université de Lorraine
+        position: Superviseur de projet
+        scope: 1ère année de Master IDMC
+      description:
+        objective: Utiliser des proportions analogiques pour générer des jeux de mots et des images de memes
   - colaborators:
     - Miguel Couceiro (co-superviseur)
     - Safa Alsaidi (étudiante)
     - Amandine Decker (étudiante)
     - Stephanie Monteiro (étudiante)
     date:
-      end: 2021
-      start: 2020
+      end: 2022
+      start: 2021
     description:
       objective: Résoudre les proportions analogies morphologiques
     place:
@@ -556,8 +631,8 @@ tutoring:
     - Amandine Decker (étudiante)
     - Puthineath Lay (étudiante)
     date:
-      end: 2021
-      start: 2020
+      end: 2022
+      start: 2021
     description:
       objective: Détecter les proportions analogies morphologiques
     place:
@@ -575,8 +650,8 @@ tutoring:
     - Asmaa Demny (étudiante)
     - Min-Huong Ngo (étudiant)
     date:
-      end: 2021
-      start: 2020
+      end: 2022
+      start: 2021
     description:
       topic: combiner les embeddings contextuels (de mots) et les embeddings de graphes de connaisance
     place:
