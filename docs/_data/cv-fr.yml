@@ -543,18 +543,18 @@ tutoring:
       institute: Loria, équipe Orpailleur
       university: Université de Lorraine
     position: Superviseur de stage de master 1
-    - colaborators:
-      - Miguel Couceiro (co-superviseur)
-      - Guillaume Richez (stagiaire, M2)
-      date: 2022
-      description:
-        objective: analogies entre phrases
-      place:
-        city: Nancy
-        country: France
-        institute: Loria, équipe Orpailleur
-        university: Université de Lorraine
-      position: Superviseur de stage de master 2
+  - colaborators:
+    - Miguel Couceiro (co-superviseur)
+    - Guillaume Richez (stagiaire, M2)
+    date: 2022
+    description:
+      objective: analogies entre phrases
+    place:
+      city: Nancy
+      country: France
+      institute: Loria, équipe Orpailleur
+      university: Université de Lorraine
+    position: Superviseur de stage de master 2
   - colaborators:
     - Miguel Couceiro (co-superviseur)
     - Anahita Poulad (stagiaire, M1)
@@ -588,26 +588,25 @@ tutoring:
 
 
   student:
-    - position: Project supervisor
-      date:
-        start: 2022
-        end: 2023
-      colaborators:
-        - Miguel Couceiro (co-superviseur)
-        - Gaël Guibon (co-superviseur)
-        - Louis Berrane (étudiant)
-        - Abir Lettifi (étudiant)
-        - Camille Saran (étudiante)
-        - Maeva Sillaire (étudiante)
-        place:
-          city: Nancy
-          country: France
-          institute: Loria, équipe Orpailleur
-          university: Université de Lorraine
-        position: Superviseur de projet
-        scope: 1ère année de Master IDMC
-      description:
-        objective: Utiliser des proportions analogiques pour générer des jeux de mots et des images de memes
+  - date:
+      start: 2022
+      end: 2023
+    colaborators:
+      - Miguel Couceiro (co-superviseur)
+      - Gaël Guibon (co-superviseur)
+      - Louis Berrane (étudiant)
+      - Abir Lettifi (étudiant)
+      - Camille Saran (étudiante)
+      - Maeva Sillaire (étudiante)
+    place:
+      city: Nancy
+      country: France
+      institute: Loria, équipe Orpailleur
+      university: Université de Lorraine
+    position: Superviseur de projet
+    scope: 1ère année de Master IDMC
+    description:
+      objective: Utiliser des proportions analogiques pour générer des jeux de mots et des images de memes
   - colaborators:
     - Miguel Couceiro (co-superviseur)
     - Safa Alsaidi (étudiante)
