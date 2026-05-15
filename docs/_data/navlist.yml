@@ -13,6 +13,6 @@ docs:
   url: bib
   label: bib
 
-- title: Teaching
-  url: teaching
-  label: teaching
+- title: Documents
+  url: docs
+  label: docs
